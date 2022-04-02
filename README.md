@@ -3,7 +3,7 @@ hi, i am a data scinetinst/ML engineer, python developer.
 
 some of my project:
 
-Repos of thematic projects: 
+🏂 Repos with thematic projects: 
 
 |  Projects                                                                                                                              | Topic                         |
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
@@ -15,7 +15,8 @@ Repos of thematic projects:
 | [Navigation (Value based methods)](https://github.com/bkocis/DRLND_Pr_1_Navigation)                                                    | Reinforcement Learning        |
 
 
-Repos about learning - these repos are documenting the learning proces, or contain examples of simple technical implementation.
+
+🎠 Repos for learning projects with examples of simple technical implementation.
 
 | Learning projects  | Topic          | Project                                                                                                                              |
 |--------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------|
