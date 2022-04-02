@@ -49,3 +49,7 @@ Listing of certificates and community projects
 |----------------------------------------------------------|
 
 ____
+<p align="center">
+    <a href="https://www.linkedin.com/in/balazkocis/" target="blank"><img align="left" src="https://github.com/bkocis/bkocis/raw/master/.readme/icons/linkedin.png" alt="me LinkedIn" height="32" width="32" /></a>
+    <a href="https://stackoverflow.com/users/2269826/b-kocis" target="blank"><img align="left" src="https://github.com/bkocis/bkocis/raw/master/.readme/icons/stackoverflow.png" alt="me on stackoverflow" height="32" width="32" /></a>
+</p>
