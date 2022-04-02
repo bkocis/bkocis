@@ -1,8 +1,7 @@
-hi, i am a data scinetinst/ML engineer, python developer.
-🏄
+hi, i am a data scinentist, ml/dl engineer, python developer 🏄
 
-some of my project:
 
+---
 🏂 Repos with thematic projects: 
 
 |  Projects                                                                                                                              | Topic                         |
@@ -14,8 +13,9 @@ some of my project:
 | [Continuous Control (Policy based methods)](https://github.com/bkocis/DRLND_Pr_2_Continuous_Control)                                   | Reinforcement Learning        |
 | [Navigation (Value based methods)](https://github.com/bkocis/DRLND_Pr_1_Navigation)                                                    | Reinforcement Learning        |
 
+<br>
 
-
+---
 🎠 Repos for learning projects with examples of simple technical implementation.
 
 | Learning projects  | Topic          | Project                                                                                                                              |
@@ -26,7 +26,9 @@ some of my project:
 | ^^                 | flask/aws      | [Flask app in microservice on AWS](https://github.com/bkocis/CloudDevOps-ND-Microservices-AWS)                                       |
 | ^^                 | aws            | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                              |
 
+<br>
 
+---
 Repos related to Linux 🐧 :
 
 | repo/tool                                                        | description                                               |
@@ -36,8 +38,13 @@ Repos related to Linux 🐧 :
 | [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)   | vi/vim configuration                                      |
 | [.bashrc](https://github.com/bkocis/dotfiles/blob/master/bashrc) | listing of added functions and general aliases            |
 
-Certificated and community projects list 
+<br>
+
+-------
+
+Listing of certificates and community projects 
 
 | [Cartifications](https://github.com/bkocis/certificates) |
 |----------------------------------------------------------|
-# bkocis
+
+____
