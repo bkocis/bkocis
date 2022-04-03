@@ -1,4 +1,8 @@
 hi, i am a data scinentist, ml/dl engineer, python developer 🏄
+<p>
+<a href="https://www.linkedin.com/in/balazkocis/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="me LinkedIn" height="16" /></a>
+<a href="https://stackoverflow.com/users/2269826/b-kocis" target="blank"><img align="center" src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="me on stackoverflow" height="16" /></a>
+</p>
 
 
 ---
@@ -50,8 +54,3 @@ Listing of certificates and community projects
 
 ____
 
-
-<p>
-<a href="https://www.linkedin.com/in/balazkocis/" target="blank"><img align="left" src="https://github.com/bkocis/bkocis/raw/e0f5587355d975309399bcfeb37fe0fb40d762f5/.readme/icons/linkedin.png" alt="me LinkedIn" height="24" width="24" /></a>
-<a href="https://stackoverflow.com/users/2269826/b-kocis" target="blank"><img align="left" src="https://github.com/bkocis/bkocis/raw/e0f5587355d975309399bcfeb37fe0fb40d762f5/.readme/icons/stackoverflow.png" alt="me on stackoverflow" height="24" width="24" /></a>
-</p>
