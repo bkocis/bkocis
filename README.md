@@ -1,4 +1,4 @@
-hi, I am a data scientist, ml/dl engineer, python developer 🏄
+hi, I am a data scientist, ml/dl engineer, python developer 🏄.
 <p>
 <a href="https://www.linkedin.com/in/balazkocis/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="me LinkedIn" height="16" /></a>
 <a href="https://stackoverflow.com/users/2269826/b-kocis" target="blank"><img align="center" src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="me on stackoverflow" height="16" /></a>
