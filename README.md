@@ -23,13 +23,13 @@ hi, I am a data scientist, ml/dl engineer, python developer 🏄.
 ---
 🎠 Repos for learning projects with examples of simple technical implementation.
 
-| Learning   | Topic          | 𝝁-project                                                                                                                            |
-|------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| : devops : | aws/Docker/EKS | [Deploying a Docker containerized Flask app on AWS Elastic Kubernetes Service](https://github.com/bkocis/CloudDevOps-ND-Capstone)    |
-| ^^         | flask/aws      | [Operationalize ML app as Microservice](https://github.com/bkocis/CloudDevOps-ND-Operationalize-ML-Microservice)                     |
-| ^^         | aws/flask/k8   | [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes) |
-| ^^         | flask/aws      | [Flask app in microservice on AWS](https://github.com/bkocis/CloudDevOps-ND-Microservices-AWS)                                       |
-| ^^         | aws            | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                              |
+| Topic          | 𝝁-project                                                                                                                            |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| aws/Docker/EKS | [Deploying a Docker containerized Flask app on AWS Elastic Kubernetes Service](https://github.com/bkocis/CloudDevOps-ND-Capstone)    |
+| flask/aws      | [Operationalize ML app as Microservice](https://github.com/bkocis/CloudDevOps-ND-Operationalize-ML-Microservice)                     |
+| aws/flask/k8   | [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes) |
+| flask/aws      | [Flask app in microservice on AWS](https://github.com/bkocis/CloudDevOps-ND-Microservices-AWS)                                       |
+| aws            | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                              |
 
 <br>
 
