@@ -1,8 +1,5 @@
 hi, 🏄.
-<p>
-<a href="https://www.linkedin.com/in/balazkocis/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="me LinkedIn" height="21" /></a>
-<a href="https://medium.com/@balazskocsis" target="blank"><img align="center" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="me on medium" height="21" /></a>
-</p>
+
 
 ---
 🏂 Repos with thematic projects: 
