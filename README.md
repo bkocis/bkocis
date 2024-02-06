@@ -34,10 +34,10 @@ hi, 🏄.
 
 | repo/tool                                                        | description                                               |
 |------------------------------------------------------------------|-----------------------------------------------------------|
-| [One-liners](https://github.com/bkocis/one-liners)               | listing of linux command line tool "one-liners" for tasks |
-| [CLI settings](https://github.com/bkocis/dotfiles)               | command line settings                                     |
-| [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)   | vi/vim configuration                                      |
-| [.bashrc](https://github.com/bkocis/dotfiles/blob/master/bashrc) | listing of added functions and general aliases            |
+| [my favourite linux commands](https://github.com/bkocis/one-liners)               | listing of linux command line tool "one-liners" for tasks |
+| [my dotfiles](https://github.com/bkocis/dotfiles)               | command line settings                                     |
+| [my .vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)   | vi/vim configuration                                      |
+| [my .bashrc](https://github.com/bkocis/dotfiles/blob/master/bashrc) | listing of added functions and general aliases            |
 
 <br>
 
