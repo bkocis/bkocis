@@ -2,9 +2,9 @@ hi, 🏄.
 
 
 ---
-🏂 Repos with thematic projects: 
+🎠 Repos with thematic, learning projects with examples and simple technical implementation: 
 
-| Projects                                                                                                                                 | Area                          |
+| 𝝁-project                                                                                                                                | Area                          |
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | [Image captioning](https://github.com/bkocis/CVND_Pr_2_Image_captioning)                                                                 | Computer Vision/Deep Learning |
 | [Facial keypoint detection](https://github.com/bkocis/CVND_Pr_1_Facial_Keypoint_Detection)                                               | Computer Vision/Deep Learning |
@@ -13,31 +13,23 @@ hi, 🏄.
 | [Continuous Control (Policy based methods)](https://github.com/bkocis/DRLND_Pr_2_Continuous_Control)                                     | Reinforcement Learning        |
 | [Navigation (Value based methods)](https://github.com/bkocis/DRLND_Pr_1_Navigation)                                                      | Reinforcement Learning        |
 | [Object detection with AWS Recognition](https://github.com/bkocis/bertelsmann-dsml-group-projects)                                       | Object Detection/AWS          |
+| [Deploying a Docker containerized Flask app on AWS Elastic Kubernetes Service](https://github.com/bkocis/CloudDevOps-ND-Capstone)        | aws/Docker/EKS |
+| [Operationalize ML app as Microservice](https://github.com/bkocis/CloudDevOps-ND-Operationalize-ML-Microservice)                         | flask/aws  |
+| [Flask app in microservice on AWS](https://github.com/bkocis/CloudDevOps-ND-Microservices-AWS)                                           | flask/aws | 
+| [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes)     |  aws/flask/k8 |
+| [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                                  | aws |
 
 <br>
 
 ---
-🎠 Repos for learning projects with examples of simple technical implementation.
+🐧 Linux stuff:
 
-| Topic          | 𝝁-project                                                                                                                            |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| aws/Docker/EKS | [Deploying a Docker containerized Flask app on AWS Elastic Kubernetes Service](https://github.com/bkocis/CloudDevOps-ND-Capstone)    |
-| flask/aws      | [Operationalize ML app as Microservice](https://github.com/bkocis/CloudDevOps-ND-Operationalize-ML-Microservice)                     |
-| aws/flask/k8   | [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes) |
-| flask/aws      | [Flask app in microservice on AWS](https://github.com/bkocis/CloudDevOps-ND-Microservices-AWS)                                       |
-| aws            | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                              |
-
-<br>
-
----
-🐧 Linux related repos:
-
-| repo/tool                                                        | description                                               |
-|------------------------------------------------------------------|-----------------------------------------------------------|
+| repo/tool                                                                         | description                                               |
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [my favourite linux commands](https://github.com/bkocis/one-liners)               | listing of linux command line tool "one-liners" for tasks |
-| [my dotfiles](https://github.com/bkocis/dotfiles)               | command line settings                                     |
-| [my .vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)   | vi/vim configuration                                      |
-| [my .bashrc](https://github.com/bkocis/dotfiles/blob/master/bashrc) | listing of added functions and general aliases            |
+| [my dotfiles](https://github.com/bkocis/dotfiles)                                 | command line settings                                     |
+| [my .vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)                 | vi/vim configuration                                      |
+| [my .bashrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)               | listing of added functions and general aliases            |
 
 <br>
 
