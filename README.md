@@ -6,6 +6,8 @@ hi, 🏄.
 
 | 𝝁-project                                                                                                                                | Area                          |
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| [ollama cli chat with various models](https://github.com/bkocis/ollama-test) - [Read on Medium](https://medium.com/@balazskocsis/list/ollama-run-llms-localy-f9f124256761)                                               | LLMs                          |
+| [gradio app / chatgpt app with dockerization and deployment](https://github.com/bkocis/chatgpt-api-app)                                  | OpenAI/GPT4                   |
 | [Image captioning](https://github.com/bkocis/CVND_Pr_2_Image_captioning)                                                                 | Computer Vision/Deep Learning |
 | [Facial keypoint detection](https://github.com/bkocis/CVND_Pr_1_Facial_Keypoint_Detection)                                               | Computer Vision/Deep Learning |
 | [Landmark detection and tracking SLAM](https://github.com/bkocis/CVND_Pr_3_Landmark_detection_and_tracking_SLAM)                         | Computer Vision               |
@@ -19,7 +21,6 @@ hi, 🏄.
 | [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes)     |  aws/flask/k8 |
 | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                                  | aws |
 
-<br>
 
 ---
 🐧 Linux stuff:
@@ -30,8 +31,6 @@ hi, 🏄.
 | [my dotfiles](https://github.com/bkocis/dotfiles)                                 | command line settings                                     |
 | [my .vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)                 | vi/vim configuration                                      |
 | [my .bashrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)               | listing of added functions and general aliases            |
-
-<br>
 
 -------
 
