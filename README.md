@@ -2,9 +2,8 @@ hi, 🏄.
 
 
 ---
-🎠 Repos with thematic, learning projects with examples and simple technical implementation: 
 
-| 𝝁-project                                                                                                                                | Area                          |
+|   𝝁-projects                                                                                                                                                            ||
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | [ollama cli chat with various models](https://github.com/bkocis/ollama-test) - [Read on Medium](https://medium.com/@balazskocsis/list/ollama-run-llms-localy-f9f124256761)                                               | LLMs                          |
 | [gradio app / chatgpt app with dockerization and deployment](https://github.com/bkocis/chatgpt-api-app)                                  | OpenAI/GPT4                   |
