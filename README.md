@@ -5,7 +5,7 @@ hi, 🏄.
 
 |   𝝁-projects                                                                                                                                                            ||
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| [ollama cli chat with various models](https://github.com/bkocis/ollama-test) - [Read on Medium](https://medium.com/@balazskocsis/list/ollama-run-llms-localy-f9f124256761)                                               | LLMs                          |
+| [ollama cli chat with various models](https://github.com/bkocis/ollama-test) - <a href="[https://medium.com/@balazskocsis](https://medium.com/@balazskocsis/list/ollama-run-llms-localy-f9f124256761)" target="blank"><img align="center" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="me on medium" height="26" /></a>                                               | LLMs                          |
 | [gradio app / chatgpt app with dockerization and deployment](https://github.com/bkocis/chatgpt-api-app)                                  | OpenAI/GPT4                   |
 | [Image captioning](https://github.com/bkocis/CVND_Pr_2_Image_captioning)                                                                 | Computer Vision/Deep Learning |
 | [Facial keypoint detection](https://github.com/bkocis/CVND_Pr_1_Facial_Keypoint_Detection)                                               | Computer Vision/Deep Learning |
