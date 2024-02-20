@@ -15,7 +15,6 @@ hi, 🏄.
 | [Object detection with AWS Recognition](https://github.com/bkocis/bertelsmann-dsml-group-projects)                                       | Object Detection/AWS          |
 | [Deploying a Docker containerized Flask app on AWS Elastic Kubernetes Service](https://github.com/bkocis/CloudDevOps-ND-Capstone)        | aws/Docker/EKS |
 | [Operationalize ML app as Microservice](https://github.com/bkocis/CloudDevOps-ND-Operationalize-ML-Microservice)                         | flask/aws  |
-| [Flask app in microservice on AWS](https://github.com/bkocis/CloudDevOps-ND-Microservices-AWS)                                           | flask/aws | 
 | [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes)     |  aws/flask/k8 |
 | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                                  | aws |
 
