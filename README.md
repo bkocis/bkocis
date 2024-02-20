@@ -9,7 +9,7 @@ hi, 🏄.
 | [Image captioning](https://github.com/bkocis/CVND_Pr_2_Image_captioning) - <a href="https://medium.com/@balazskocsis/background-removal-and-image-captioning-write-a-flask-app-and-host-it-5c8ca4194542" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="me on medium" /></a>                                                              | Computer Vision/Deep Learning |
 | [Facial keypoint detection](https://github.com/bkocis/CVND_Pr_1_Facial_Keypoint_Detection)                                               | Computer Vision/Deep Learning |
 | [Landmark detection and tracking SLAM](https://github.com/bkocis/CVND_Pr_3_Landmark_detection_and_tracking_SLAM)                         | Computer Vision               |
-| [Collaboration and competition (Multi-Agent Reinforcement Learning)](https://github.com/bkocis/DRLND_Pr_3_Collaboration_and_Competition) | Reinforcement Learning        |
+| [Collaboration and competition (Multi-Agent Reinforcement Learning)](https://github.com/bkocis/DRLND_Pr_3_Collaboration_and_Competition/blob/master/report.md) | Reinforcement Learning        |
 | [Continuous Control (Policy based methods)](https://github.com/bkocis/DRLND_Pr_2_Continuous_Control)                                     | Reinforcement Learning        |
 | [Navigation (Value based methods)](https://github.com/bkocis/DRLND_Pr_1_Navigation)                                                      | Reinforcement Learning        |
 | [Object detection with AWS Recognition](https://github.com/bkocis/bertelsmann-dsml-group-projects)                                       | Object Detection/AWS          |
