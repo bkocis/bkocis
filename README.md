@@ -20,18 +20,12 @@ hi, 🏄.
 
 
 ---
-🐧 Linux stuff:
 
-| repo/tool                                                                         | description                                               |
-|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
-| [my favourite linux commands](https://github.com/bkocis/one-liners)               | listing of linux command line tool "one-liners" for tasks |
-| [my dotfiles](https://github.com/bkocis/dotfiles)                                 | command line settings                                     |
-| [my .vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc)                 | vi/vim configuration                                      |
-| [my .bashrc/.zshrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)               | listing of added functions and general aliases            |
+🐧 Linux configs/mods: [my favourite linux commands](https://github.com/bkocis/one-liners),  [dotfiles](https://github.com/bkocis/dotfiles), [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc), [.bashrc/.zshrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)
 
 -------
 
-Listing of some [online courses/cetifications](https://github.com/bkocis/certificates)
+
 
 ____
 
