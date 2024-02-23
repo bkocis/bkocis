@@ -31,10 +31,7 @@ hi, 🏄.
 
 -------
 
-Listing of certificates and community projects 
-
-| [Cartifications](https://github.com/bkocis/certificates) |
-|----------------------------------------------------------|
+Listing of some [online courses/cetifications](https://github.com/bkocis/certificates)
 
 ____
 
