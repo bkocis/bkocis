@@ -21,11 +21,14 @@ hi, 🏄.
 
 ---
 
-🐧 Linux configs/mods: [my favourite linux commands](https://github.com/bkocis/one-liners),  [dotfiles](https://github.com/bkocis/dotfiles), [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc), [.bashrc/.zshrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)
+<details>
+ <summary>
+	 🐧 Linux conf
+ </summary>
+  
+[my favourite linux commands](https://github.com/bkocis/one-liners),  [dotfiles](https://github.com/bkocis/dotfiles), [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc), [.bashrc/.zshrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)
 
--------
-
-
+</details>
 
 ____
 
