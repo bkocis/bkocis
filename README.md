@@ -17,18 +17,6 @@ hi, 🏄.
 | [Operationalize ML app as Microservice](https://github.com/bkocis/CloudDevOps-ND-Operationalize-ML-Microservice)                         | flask/aws  |
 | [Building and running flask app deployed on kubernetes cluster](https://github.com/bkocis/cloud-miniproject-01/tree/test-kubernetes)     |  aws/flask/k8 |
 | [IaaC](https://github.com/bkocis/CloudDevOps-ND-Infrastructure-as-code)                                                                  | aws |
-
+| <details> <summary> 🐧 Linux conf </summary> [my favourite linux commands](https://github.com/bkocis/one-liners),  [dotfiles](https://github.com/bkocis/dotfiles), [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc), [.bashrc/.zshrc](https://github.com/bkocis/dotfiles/blob/master/bashrc) </details> | 🐧 Linux conf |
 
 ---
-
-<details>
- <summary>
-	 🐧 Linux conf
- </summary>
-  
-[my favourite linux commands](https://github.com/bkocis/one-liners),  [dotfiles](https://github.com/bkocis/dotfiles), [.vimrc](https://github.com/bkocis/dotfiles/blob/master/vimrc), [.bashrc/.zshrc](https://github.com/bkocis/dotfiles/blob/master/bashrc)
-
-</details>
-
-____
-
