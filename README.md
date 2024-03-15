@@ -1,8 +1,8 @@
 hi, 🏄.
 
-I share here some of my experimens and learnings here. I use lot of private repos for keeping my code available and at reach, as a reference. 
+I share here some of my experimens and learnings. I tend use lot of private repos for keeping my code available to me. 
 
-My interest and focus vary over time - 
+My interest and focus vary over time :arrow_down:. Currently experimenting with writing as well - check out my Medium stories as well :arrow_heading_down: - a read means a lot to me :wink:.
 
 ---
 
