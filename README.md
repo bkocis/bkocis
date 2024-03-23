@@ -1,8 +1,6 @@
-hi, 🏄.
+hi,👋
 
-I share here some of my experimens and learnings. I tend use lot of private repos for keeping my code available to me. 
-
-My interest and focus vary over time :arrow_down:. Currently experimenting with writing as well - check out some of my Medium stories :arrow_heading_down: - a read means a lot to me :wink:.
+In this space, I showcase a variety of my experiments and learning experiences. My interests and focuses shift with time ⬇️.
 
 ---
 
