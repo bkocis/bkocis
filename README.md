@@ -1,6 +1,5 @@
 hi,👋
 
-In this space, I showcase a variety of my experiments and learning experiences. My interests and focuses shift with time ⬇️.
 
 ---
 
