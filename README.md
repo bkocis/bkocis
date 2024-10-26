@@ -1,4 +1,4 @@
-Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, computer vision, and cloud deployment. My projects range from building home surveillance systems with AI to deploying machine learning models on AWS, with special interest in local LLM implementations using Ollama. I also work extensively with reinforcement learning and enjoy automating deployments using Docker and Kubernetes.
+Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, computer vision, and cloud deployment. My projects range from building surveillance systems with AI to deploying machine learning models on AWS, with special interest in local LLM implementations. I also like to explore topics like reinforcement learning and enjoy automating deployments using Docker and Kubernetes.
 
 ## 🤖 Large Language Models
 - **[LLMs for Video Feed Captioning](https://github.com/bkocis/ollama-home-surveillance)** - Home surveillance system implementation
