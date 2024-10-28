@@ -16,9 +16,9 @@ Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, compu
     [![Python application](https://github.com/bkocis/image-captioning-applications/actions/workflows/python-app.yml/badge.svg)](https://github.com/bkocis/image-captioning-applications/actions/workflows/python-app.yml) 
 
 
-## ☁️ Older projects and coursework
+
 <details>
-<summary>Click to expand</summary>
+<summary> ☁️ Older projects and coursework</summary>
   
 - **[AWS Recognition Object Detection](https://github.com/bkocis/bertelsmann-dsml-group-projects)** - Cloud-based computer vision
 - **Kubernetes & Docker**
@@ -29,9 +29,9 @@ Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, compu
 </details>
 
 
-## 🐧 Linux Configuration
+
 <details>
-<summary>Click to expand</summary>
+<summary> 🐧 Linux Configuration</summary>
 
 - [Linux Command Collection](https://github.com/bkocis/one-liners) - Curated list of useful commands
 - [Dotfiles](https://github.com/bkocis/dotfiles) - Personal configuration files
