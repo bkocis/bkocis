@@ -16,13 +16,7 @@ Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, compu
   - **[Image Captioning](https://github.com/bkocis/image-captioning-application-pytorch)** - Flask-based implementation
     <a href="https://medium.com/@balazskocsis/background-removal-and-image-captioning-write-a-flask-app-and-host-it-5c8ca4194542" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
     [![Python application](https://github.com/bkocis/image-captioning-applications/actions/workflows/python-app.yml/badge.svg)](https://github.com/bkocis/image-captioning-applications/actions/workflows/python-app.yml) 
-  - **[Facial Keypoint Detection](https://github.com/bkocis/CVND_Pr_1_Facial_Keypoint_Detection)** - Deep learning-based facial feature detection
 
-## 🎮 Reinforcement Learning
-- **Multi-Agent Systems & Control**
-  - [Multi-Agent Collaboration & Competition](https://github.com/bkocis/DRLND_Pr_3_Collaboration_and_Competition/blob/master/report.md)
-  - [Continuous Control with Policy-based Methods](https://github.com/bkocis/DRLND_Pr_2_Continuous_Control)
-  - [Navigation using Value-based Methods](https://github.com/bkocis/DRLND_Pr_1_Navigation)
 
 ## ☁️ Cloud & DevOps
 - **[AWS Recognition Object Detection](https://github.com/bkocis/bertelsmann-dsml-group-projects)** - Cloud-based computer vision
