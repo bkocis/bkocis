@@ -1,7 +1,7 @@
 Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, computer vision, and cloud deployment. My projects range from building surveillance systems with AI to deploying machine learning models on AWS, with special interest in local LLM implementations. I also like to explore topics like reinforcement learning and enjoy automating deployments using Docker and Kubernetes. 
 
-## 🤖 Latest projects
-- 
+## 🌱 Latest projects
+ 
   - **[LLMs for Video Feed Captioning](https://github.com/bkocis/ollama-home-surveillance)** - Home surveillance system implementation
     <a href="https://medium.com/p/005f193293d3" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
   - **[Ollama CLI Chat Interface](https://github.com/bkocis/ollama-test)** - Interface for various LLM models
@@ -18,7 +18,7 @@ Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, compu
 
 
 <details>
-<summary> ☁️ Older projects and coursework</summary>
+<summary> ☁️ Other projects and coursework</summary>
   
 - **[AWS Recognition Object Detection](https://github.com/bkocis/bertelsmann-dsml-group-projects)** - Cloud-based computer vision
 - **Kubernetes & Docker**
