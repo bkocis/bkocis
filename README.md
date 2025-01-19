@@ -1,5 +1,28 @@
 Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, a bit of computer vision, and cloud deployment. 
 
+<!--
+| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
+|:-:|:-:|:-:|
+| <a href="https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg" width="150" height="100" alt="QwQ Model Illustration"><br><em>QwQ (Qwen with Questions 32B-Preview) is Alibaba's experimental reasoning language model.</em></a> | <a href="https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg" width="150" height="100" alt="LaTeX in GitHub Actions"><br><em>LaTeX in GitHub Actions</em></a> | <a href="https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png" width="150" height="100" alt="Home Surveillance with LLMs"><br><em>Home Surveillance with LLMs using Ollama and LLaVA</em></a> |
+| <a href="https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg" width="300" height="200" alt="QwQ Model Illustration"><br><em>QwQ (Qwen with Questions 32B-Preview) is Alibaba's experimental reasoning language model.</em></a> | <a href="https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg" width="300" height="200" alt="LaTeX in GitHub Actions"><br><em>LaTeX in GitHub Actions</em></a> | <a href="https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png" width="300" height="200" alt="Home Surveillance with LLMs"><br><em>Home Surveillance with LLMs using Ollama and LLaVA</em></a> |
+
+| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
+|:-:|:-:|:-:|
+| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0)<br>**QwQ Model Overview**<br>Alibaba's experimental reasoning language model for advanced analytical tasks | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8)<br>**GitHub Actions Tutorial**<br>Integrating LaTeX compilation in CI/CD workflows | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3)<br>**LLM Surveillance Project**<br>Using Ollama and LLaVA for intelligent home monitoring |
+| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0)<br>**Technical Deep Dive**<br>Exploring QwQ's reasoning capabilities | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8)<br>**Advanced CI Techniques**<br>Streamlining document generation | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3)<br>**AI-Powered Monitoring**<br>Intelligent home security solutions |
+
+
+| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
+|:-:|:-:|:-:|
+| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0) | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8) | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3) |
+| **QwQ Model Overview** | **GitHub Actions Tutorial** | **LLM Surveillance Project** |
+| *Alibaba's experimental reasoning language model* | *Integrating LaTeX compilation in CI/CD workflows* | *Using Ollama and LLaVA for intelligent home monitoring* |
+| **Key Features:** | **Key Techniques:** | **Project Highlights:** |
+| - Advanced analytical reasoning | - Automated document generation | - AI-powered home security |
+| - 32B parameter model | - Markdown to PDF conversion | - Real-time object detection |
+| - Math & coding focus | - Continuous integration | - LLM-based analysis |
+-->
+
 ## 🌱 Latest projects
  
   - **[LLMs for Video Feed Captioning](https://github.com/bkocis/ollama-home-surveillance)** - Home surveillance system implementation
