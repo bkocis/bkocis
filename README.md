@@ -1,5 +1,12 @@
 Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, a bit of computer vision, and cloud deployment. 
 
+## 📝 Featured Medium Articles
+
+| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
+|:-:|:-:|:-:|
+| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0) | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8) | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3) |
+| **QwQ Model Overview** | **GitHub Actions Tutorial** | **LLM Surveillance Project** |
+| *Alibaba's experimental reasoning language model* | *Integrating LaTeX compilation in CI/CD workflows* | *Using Ollama and LLaVA for intelligent home monitoring* |
 
 ## Recent Projects Portfolio
 
