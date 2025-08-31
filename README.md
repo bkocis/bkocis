@@ -1,7 +1,7 @@
 Hi,👋! My favourite emojis are: 🚀 🔥 💻 🎯 ⚡ 🌟 🎉 💡 🔮 🎨 ⭐ 
 
 
-## Recent projects on which I waset my time on (github mcp server summaried my public AND private repos):
+## Recent projects on which I waste my time on (github's mcp server summaried my latest public AND private repos):
 
 ### **[Paper Piper](https://github.com/bkocis/paper-piper)** (2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
 A FastAPI-based scientific paper management and analysis tool implementing automated metadata extraction and collaborative research workflows. Built with Poetry for dependency management, containerized with Docker, and features RESTful API architecture for scalable document processing. Incorporates PDF parsing, citation analysis, and database integration with SQLAlchemy ORM. Demonstrates modern Python development practices with async/await patterns and comprehensive testing framework.
@@ -16,7 +16,7 @@ Local LLM-powered coding assistant leveraging Ollama framework for privacy-focus
 ### **[MCP Servers](https://github.com/bkocis/mcp-servers)** (2024-2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
 Collection of Model Context Protocol servers enabling LLM tool integration and extensibility. Implements standardized MCP protocol for seamless communication between language models and external tools. Features modular server architecture, JSON-RPC communication, and comprehensive tool registry. Includes practical implementations for file operations, web search, and API integrations with proper error handling and security measures.
 
-### **[Serve Yourself Your Music](https://github.com/bkocis/serve-yourself-your-music-public)** (2025) ![P](https://img.shields.io/badge/Repo-Public-brightgreen)
+### **[Serve Yourself Your Music](https://github.com/bkocis/serve-yourself-your-music-public)** (2025) ![Public](https://img.shields.io/badge/Repo-Public/_Private_deployment-brightgreen)
 Web-based music streaming platform with YouTube and SoundCloud integration. Features automated CI/CD pipeline using GitHub Actions for remote server deployment. Core functionality includes audio extraction via yt-dlp, web-based media player with clean UI, and containerized deployment with Docker. Demonstrates DevOps practices with automated testing and deployment workflows.  
 <a href="https://medium.com/@balazskocis/deploying-to-a-server-with-github-actions-a-deep-dive-e8558e83a4d7" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
 
