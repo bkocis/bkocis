@@ -1,47 +1,51 @@
 Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, a bit of computer vision, and cloud deployment. 
 
-<!--
-| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
-|:-:|:-:|:-:|
-| <a href="https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg" width="150" height="100" alt="QwQ Model Illustration"><br><em>QwQ (Qwen with Questions 32B-Preview) is Alibaba's experimental reasoning language model.</em></a> | <a href="https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg" width="150" height="100" alt="LaTeX in GitHub Actions"><br><em>LaTeX in GitHub Actions</em></a> | <a href="https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png" width="150" height="100" alt="Home Surveillance with LLMs"><br><em>Home Surveillance with LLMs using Ollama and LLaVA</em></a> |
-| <a href="https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg" width="300" height="200" alt="QwQ Model Illustration"><br><em>QwQ (Qwen with Questions 32B-Preview) is Alibaba's experimental reasoning language model.</em></a> | <a href="https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg" width="300" height="200" alt="LaTeX in GitHub Actions"><br><em>LaTeX in GitHub Actions</em></a> | <a href="https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png" width="300" height="200" alt="Home Surveillance with LLMs"><br><em>Home Surveillance with LLMs using Ollama and LLaVA</em></a> |
 
-| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
-|:-:|:-:|:-:|
-| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0)<br>**QwQ Model Overview**<br>Alibaba's experimental reasoning language model for advanced analytical tasks | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8)<br>**GitHub Actions Tutorial**<br>Integrating LaTeX compilation in CI/CD workflows | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3)<br>**LLM Surveillance Project**<br>Using Ollama and LLaVA for intelligent home monitoring |
-| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0)<br>**Technical Deep Dive**<br>Exploring QwQ's reasoning capabilities | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8)<br>**Advanced CI Techniques**<br>Streamlining document generation | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3)<br>**AI-Powered Monitoring**<br>Intelligent home security solutions |
+## Recent Projects Portfolio
 
+### **Serve Yourself Your Music** (2025)
+**Tech Stack:** Python, Flask, yt-dlp, Docker, GitHub Actions, HTML/CSS/JavaScript
+**Implementation:** Web-based music streaming platform with YouTube and SoundCloud integration. Features automated CI/CD pipeline using GitHub Actions for remote server deployment. Core functionality includes audio extraction via yt-dlp, web-based media player with clean UI, and containerized deployment with Docker. Demonstrates DevOps practices with automated testing and deployment workflows.
 
-| QwQ Model | LaTeX in GitHub Actions | Home Surveillance with LLMs |
-|:-:|:-:|:-:|
-| [![QwQ Model](https://miro.medium.com/v2/resize:fit:640/format:webp/1*w611lcdR3yKnGf1rwWduKg.jpeg)](https://medium.com/@balazskocsis/running-qwq-with-ollama-on-local-hardware-f7cec53d03a0) | [![LaTeX in GitHub Actions](https://miro.medium.com/v2/resize:fit:640/format:webp/1*s4zL97JLve9H5UCHHjQhDg.jpeg)](https://medium.com/@balazskocsis/latex-in-github-actions-3cf2d591fee8) | [![Home Surveillance LLM](https://miro.medium.com/v2/resize:fit:720/format:webp/1*9X9GKaitSJGF5BmuGOjObw.png)](https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3) |
-| **QwQ Model Overview** | **GitHub Actions Tutorial** | **LLM Surveillance Project** |
-| *Alibaba's experimental reasoning language model* | *Integrating LaTeX compilation in CI/CD workflows* | *Using Ollama and LLaVA for intelligent home monitoring* |
-| **Key Features:** | **Key Techniques:** | **Project Highlights:** |
-| - Advanced analytical reasoning | - Automated document generation | - AI-powered home security |
-| - 32B parameter model | - Markdown to PDF conversion | - Real-time object detection |
-| - Math & coding focus | - Continuous integration | - LLM-based analysis |
--->
+### **System Monitor CLI App** (2025)
+**Tech Stack:** Python, Click, psutil, setuptools, Poetry
+**Implementation:** Professional command-line system monitoring tool with proper Python packaging standards. Features comprehensive pyproject.toml configuration, automated testing with pytest, Makefile for development workflows, and modular architecture. Implements real-time system metrics collection using psutil with extensible CLI interface built on Click framework.
 
-## 🌱 Latest projects
- 
-  - **[LLMs for Video Feed Captioning](https://github.com/bkocis/ollama-home-surveillance)** - Home surveillance system implementation
-    <a href="https://medium.com/p/005f193293d3" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
-  - **[Ollama CLI Chat Interface](https://github.com/bkocis/ollama-test)** - Interface for various LLM models
-    <a href="https://medium.com/@balazskocsis/list/ollama-run-llms-localy-f9f124256761" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
-  - **[Dockerized ChatGPT Application](https://github.com/bkocis/chatgpt-api-app)** - Complete deployment pipeline
-    <a href="https://medium.com/@balazskocsis/how-to-define-endpoints-for-image-captioning-applications-using-fastapi-0ef5ffba65a4" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
-    <a href="https://medium.com/@balazskocsis/deploying-to-a-server-with-github-actions-a-deep-dive-e8558e83a4d7" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
-    [![Python application](https://github.com/bkocis/gradio-apps/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/bkocis/gradio-apps/actions/workflows/python-app.yml)
+### **O'Reilly Book RAG Learning System** (2025)
+**Tech Stack:** FastAPI, React, TypeScript, SQLAlchemy, Vite, TailwindCSS, Vector Database
+**Implementation:** Full-stack RAG (Retrieval-Augmented Generation) application for interactive learning from PDF technical books. Backend implements document processing pipeline with vector embeddings, quiz generation, and progress tracking using SQLAlchemy ORM. Frontend built with React/TypeScript using Vite for fast development and TailwindCSS for responsive design. Features real-time Q&A, achievement system, and learning analytics.
 
-  - **[Image Captioning](https://github.com/bkocis/image-captioning-application-pytorch)** - Flask-based implementation
-    <a href="https://medium.com/@balazskocsis/background-removal-and-image-captioning-write-a-flask-app-and-host-it-5c8ca4194542" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
-    [![Python application](https://github.com/bkocis/image-captioning-applications/actions/workflows/python-app.yml/badge.svg)](https://github.com/bkocis/image-captioning-applications/actions/workflows/python-app.yml) 
+### **Chat with Documents and Images** (2024-2025)
+**Tech Stack:** Python, Ollama, LLaVA, Qdrant Vector Database, RAG Architecture
+**Implementation:** Multimodal RAG system supporting both document and image understanding. Implements Ollama framework for local LLM deployment, LLaVA for vision-language tasks, and Qdrant for vector storage and similarity search. Features document chunking, embedding generation, and context-aware response generation for both text and visual content.
 
+### **Function Calling with Ollama** (2024)
+**Tech Stack:** Python, Ollama, JSON Schema, Function Definitions
+**Implementation:** Demonstration of structured function calling capabilities with Ollama LLMs. Implements JSON schema validation for function parameters, multiple tool orchestration, and structured output parsing. Shows practical examples of LLM-driven automation with proper error handling and function parameter validation.
+
+### **Home Surveillance with Multimodal LLMs** (2024)
+**Tech Stack:** Python, Ollama, LLaVA, Computer Vision, Image Processing
+**Implementation:** Real-time surveillance system leveraging multimodal LLMs for intelligent image analysis. Integrates camera feed processing with LLaVA model for scene understanding and threat detection. Features automated image captioning, anomaly detection, and natural language descriptions of surveillance footage using local LLM deployment.
+
+### **Advanced Python Concepts** (2017-2025)
+**Tech Stack:** Jupyter Notebooks, Python OOP, Multiprocessing, GitHub Pages
+**Implementation:** Educational repository demonstrating advanced Python programming concepts. Covers object-oriented programming, multiprocessing techniques, decorators, and generator expressions. Features interactive Jupyter notebooks with comprehensive examples and is deployed as GitHub Pages site for easy access. Includes practical implementations of design patterns and performance optimization techniques.
+
+### **AlgoRun - Crystallography Automation** (2018-2025)
+**Tech Stack:** Python, FullProf Software Integration, Scientific Computing
+**Implementation:** Automated Rietveld refinement tool for crystallographic data analysis. Interfaces with FullProf software for powder diffraction analysis, implementing automated parameter optimization and result processing. Features batch processing capabilities, statistical analysis of refinement results, and integration with scientific computing workflows for materials science research.
+
+### **Facial Keypoint Detection** (2019)
+**Tech Stack:** PyTorch, CNN Architecture, OpenCV, Computer Vision
+**Implementation:** Deep learning project implementing convolutional neural network for facial landmark detection. Features custom PyTorch model architecture with data augmentation pipeline, loss function optimization for keypoint regression, and complete training/validation workflow. Includes preprocessing pipeline using OpenCV and visualization tools for model performance analysis.
+
+### **OpenAI ChatGPT Application** (2023)
+**Tech Stack:** Flask, OpenAI API, Docker, HTML/CSS/JavaScript, pytest
+**Implementation:** Web application providing ChatGPT interface with proper software engineering practices. Features Flask backend with OpenAI API integration, containerized deployment using Docker, comprehensive test suite with pytest, and responsive frontend with clean UI design. Implements proper error handling, API rate limiting, and environment configuration management.
 
 
 <details>
-<summary> ☁️ Other projects and coursework</summary>
+<summary> Other projects and coursework</summary>
   
 - **[AWS Recognition Object Detection](https://github.com/bkocis/bertelsmann-dsml-group-projects)** - Cloud-based computer vision
 - **Kubernetes & Docker**
@@ -54,7 +58,7 @@ Hi,👋! I'm a data scientist focusing on machine learning engineer, LLMs, a bit
 
 
 <details>
-<summary> 🐧 Linux Configuration</summary>
+<summary> Linux Configuration</summary>
 
 - [Linux Command Collection](https://github.com/bkocis/one-liners) - Curated list of useful commands
 - [Dotfiles](https://github.com/bkocis/dotfiles) - Personal configuration files
