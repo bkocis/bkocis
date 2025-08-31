@@ -1,7 +1,7 @@
-Hi,👋! My favourite emojis are: 🚀 🔥 💻 🎯 ⚡ 🌟 🎉 💡 🔮 🎨 🌈 ⭐ 
+Hi,👋! My favourite emojis are: 🚀 🔥 💻 🎯 ⚡ 🌟 🎉 💡 🔮 🎨 ⭐ 
 
 
-## Recent Projects/public/private
+## Recent projects on which I waset my time on (github mcp server summaried my public AND private repos):
 
 ### **[Paper Piper](https://github.com/bkocis/paper-piper)** (2025)
 A FastAPI-based scientific paper management and analysis tool implementing automated metadata extraction and collaborative research workflows. Built with Poetry for dependency management, containerized with Docker, and features RESTful API architecture for scalable document processing. Incorporates PDF parsing, citation analysis, and database integration with SQLAlchemy ORM. Demonstrates modern Python development practices with async/await patterns and comprehensive testing framework.
