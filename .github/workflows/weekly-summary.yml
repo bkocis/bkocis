@@ -3,7 +3,7 @@ name: Weekly Repository Summary Update
 on:
   schedule:
     # Run every Sunday at 6:00 AM UTC (cron: minute hour day-of-month month day-of-week)
-    - cron: '0 6 * * 0'
+    - cron: '43 23 * * 0'
   workflow_dispatch: # Allow manual triggering for testing
 
 permissions:
@@ -50,8 +50,8 @@ jobs:
     - name: Commit and push changes
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email ${{ secrets.USER_EMAIL }}
+        git config --local user.name ${{ secrets.USER_NAME }}
         git add README.md
         git commit -m "🤖 Weekly repository summary update - $(date +'%Y-%m-%d')"
         git push
