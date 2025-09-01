@@ -3,6 +3,24 @@ Hi,👋! My favourite emojis are: 🚀 🔥 💻 🎯 ⚡ 🌟 🎉 💡 🔮 �
 
 ## Recent projects on which I waste my time on (github's mcp server summaried my latest public AND private repos):
 
+
+## 📊 Weekly Summary
+
+**Repository:** bkocis ⭐ 0 🍴 0
+📝 None
+
+**🔨 Commits:** 17 commits by 2 contributor(s)
+
+Recent commits:
+• `7c6bdaa` fix - Balazs.Kocsis
+• `03afacd` cron - Balazs.Kocsis
+• `4df2b33` cron - Balazs.Kocsis
+
+**🔀 Pull Requests:** 0 open, 1 merged, 2 closed
+
+Recently merged:
+• #2: Update wit hsummaries 
+
 ### **[Paper Piper](https://github.com/bkocis/paper-piper)** (2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
 A FastAPI-based scientific paper management and analysis tool implementing automated metadata extraction and collaborative research workflows. Built with Poetry for dependency management, containerized with Docker, and features RESTful API architecture for scalable document processing. Incorporates PDF parsing, citation analysis, and database integration with SQLAlchemy ORM. Demonstrates modern Python development practices with async/await patterns and comprehensive testing framework.
 
