@@ -3,7 +3,7 @@ name: Weekly Repository Summary Update
 on:
   schedule:
     # Run every Sunday at 6:00 AM UTC (cron: minute hour day-of-month month day-of-week)
-    - cron: '45 23 * * *'
+    - cron: '48 21 * * *'
   workflow_dispatch: # Allow manual triggering for testing
 
 permissions:
