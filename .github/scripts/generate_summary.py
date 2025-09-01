@@ -242,7 +242,7 @@ def update_readme_with_summary(summary: str, readme_path: str = "README.md"):
             content = f.read()
         
         # Look for existing summary section and replace it
-        summary_pattern = r'## 📊 Weekly Summary.*?(?=\n##|\n\z)'
+        summary_pattern = r'## 📊 Weekly Summary.*?(?=\n##|\Z)'
         
         if re.search(summary_pattern, content, re.DOTALL):
             # Replace existing summary
