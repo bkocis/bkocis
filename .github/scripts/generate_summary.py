@@ -150,9 +150,9 @@ class SummaryGenerator:
             summary_parts.append(self._format_releases_summary(releases))
         
         if not summary_parts:
-            return "## 📊 Weekly Summary\n\n🔸 No significant activity in the past week.\n"
+            return "## Weekly Summary\n\nNo significant activity in the past week.\n"
         
-        return "## 📊 Weekly Summary\n\n" + "\n\n".join(summary_parts) + "\n"
+        return "## Weekly Summary\n\n" + "\n\n".join(summary_parts) + "\n"
     
     def _format_repository_overview(self, repo_info: Dict) -> str:
         """Format repository overview"""
@@ -161,7 +161,7 @@ class SummaryGenerator:
         stars = repo_info.get("stargazers_count", 0)
         forks = repo_info.get("forks_count", 0)
         
-        return f"**Repository:** {name} ⭐ {stars} 🍴 {forks}\n📝 {description}"
+        return f"**Repository:** {name} | Stars: {stars} | Forks: {forks}  \n*Description:* {description}"
     
     def _format_commits_summary(self, commits: List[Dict]) -> str:
         """Format commits summary"""
@@ -172,17 +172,17 @@ class SummaryGenerator:
             author = commit.get("commit", {}).get("author", {}).get("name", "Unknown")
             authors.add(author)
         
-        summary = f"**🔨 Commits:** {commit_count} commits by {len(authors)} contributor(s)"
+        summary = f"**Commits:** {commit_count} commits by {len(authors)} contributor(s)"
         
         if commit_count > 0:
             recent_commits = commits[:3]  # Show last 3 commits
-            summary += "\n\nRecent commits:"
+            summary += "  \nRecent commits:"
             
             for commit in recent_commits:
                 message = commit.get("commit", {}).get("message", "").split('\n')[0]
                 author = commit.get("commit", {}).get("author", {}).get("name", "Unknown")
                 sha = commit.get("sha", "")[:7]
-                summary += f"\n• `{sha}` {message} - {author}"
+                summary += f"\n- `{sha}` {message} - {author}"
         
         return summary
     
@@ -192,14 +192,14 @@ class SummaryGenerator:
         closed_prs = [pr for pr in prs if pr.get("state") == "closed"]
         merged_prs = [pr for pr in prs if pr.get("merged_at")]
         
-        summary = f"**🔀 Pull Requests:** {len(open_prs)} open, {len(merged_prs)} merged, {len(closed_prs)} closed"
+        summary = f"**Pull Requests:** {len(open_prs)} open | {len(merged_prs)} merged | {len(closed_prs)} closed"
         
         if merged_prs:
-            summary += "\n\nRecently merged:"
+            summary += "  \nRecently merged:"
             for pr in merged_prs[:3]:
                 title = pr.get("title", "Untitled")
                 number = pr.get("number", "")
-                summary += f"\n• #{number}: {title}"
+                summary += f"\n- #{number}: {title}"
         
         return summary
     
@@ -208,29 +208,29 @@ class SummaryGenerator:
         open_issues = [issue for issue in issues if issue.get("state") == "open"]
         closed_issues = [issue for issue in issues if issue.get("state") == "closed"]
         
-        summary = f"**🐛 Issues:** {len(open_issues)} open, {len(closed_issues)} recently closed"
+        summary = f"**Issues:** {len(open_issues)} open | {len(closed_issues)} recently closed"
         
         if issues:
-            summary += "\n\nRecent activity:"
+            summary += "  \nRecent activity:"
             for issue in issues[:3]:
                 title = issue.get("title", "Untitled")
                 number = issue.get("number", "")
                 state = issue.get("state", "unknown")
-                state_emoji = "🟢" if state == "open" else "🔴"
-                summary += f"\n• {state_emoji} #{number}: {title}"
+                state_indicator = "[OPEN]" if state == "open" else "[CLOSED]"
+                summary += f"\n- {state_indicator} #{number}: {title}"
         
         return summary
     
     def _format_releases_summary(self, releases: List[Dict]) -> str:
         """Format releases summary"""
-        summary = f"**🚀 Releases:** {len(releases)} new release(s)"
+        summary = f"**Releases:** {len(releases)} new release(s)"
         
         if releases:
-            summary += "\n\nLatest releases:"
+            summary += "  \nLatest releases:"
             for release in releases:
                 name = release.get("name") or release.get("tag_name", "Unnamed")
                 tag = release.get("tag_name", "")
-                summary += f"\n• {name} ({tag})"
+                summary += f"\n- {name} ({tag})"
         
         return summary
 
@@ -242,7 +242,7 @@ def update_readme_with_summary(summary: str, readme_path: str = "README.md"):
             content = f.read()
         
         # Look for existing summary section and replace it
-        summary_pattern = r'## 📊 Weekly Summary.*?(?=\n##|\Z)'
+        summary_pattern = r'## (📊 )?Weekly Summary.*?(?=\n##|\Z)'
         
         if re.search(summary_pattern, content, re.DOTALL):
             # Replace existing summary

@@ -1,65 +1,87 @@
-Hi,👋! My favourite emojis are: 🚀 🔥 💻 🎯 ⚡ 🌟 🎉 💡 🔮 🎨 ⭐ 
+Hi,👋! 
 
 
 ## Recent projects on which I waste my time on (github's mcp server summaried my latest public AND private repos):
 
 
-## 📊 Weekly Summary
+## Weekly Summary
 
-**Repository:** bkocis ⭐ 0 🍴 0
-📝 None
+**Repository:** bkocis | Stars: 0 | Forks: 0  
+*Description:* None
 
-**🔨 Commits:** 17 commits by 2 contributor(s)
-
+**Commits:** 17 commits by 2 contributor(s)  
 Recent commits:
-• `7c6bdaa` fix - Balazs.Kocsis
-• `03afacd` cron - Balazs.Kocsis
-• `4df2b33` cron - Balazs.Kocsis
+- `7c6bdaa` fix - Balazs.Kocsis
+- `03afacd` cron - Balazs.Kocis  
+- `4df2b33` cron - Balazs.Kocis
 
-**🔀 Pull Requests:** 0 open, 1 merged, 2 closed
-
+**Pull Requests:** 0 open | 1 merged | 2 closed  
 Recently merged:
-• #2: Update wit hsummaries 
+- #2: Update wit hsummaries 
 
 ### **[Paper Piper](https://github.com/bkocis/paper-piper)** (2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
-A FastAPI-based scientific paper management and analysis tool implementing automated metadata extraction and collaborative research workflows. Built with Poetry for dependency management, containerized with Docker, and features RESTful API architecture for scalable document processing. Incorporates PDF parsing, citation analysis, and database integration with SQLAlchemy ORM. Demonstrates modern Python development practices with async/await patterns and comprehensive testing framework.
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat&logo=poetry&logoColor=white)
+
+Scientific paper management tool built with FastAPI. Features PDF parsing, citation analysis, and collaborative research workflows.
 
 ### **[Video Transcript Analyser](https://github.com/bkocis/video-transcript-analyser)** (2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
-Streamlit-based web application for intelligent video transcript processing and sentiment analysis. Implements YouTube transcript extraction, natural language processing with NLTK, and interactive data visualization. Features automated summarization algorithms, emotion detection, and exportable analytics reports. Containerized for easy deployment with comprehensive Docker workflow and GitHub Actions CI/CD pipeline.
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+Streamlit web app for YouTube video analysis. Extract transcripts, perform sentiment analysis, and generate summaries.
 
 ### **[Ollama Coding Assistant](https://github.com/bkocis/ollama-coding-assistant)** (2024-2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
-Local LLM-powered coding assistant leveraging Ollama framework for privacy-focused development support. Implements multiple model architectures (Llama2, CodeLlama) with custom prompt engineering for code generation, debugging assistance, and technical documentation. Features CLI interface built with Click, async processing, and comprehensive evaluation framework for model performance assessment across different coding tasks.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=llama&logoColor=white) ![CLI](https://img.shields.io/badge/CLI-4EAA25?style=flat&logo=gnubash&logoColor=white) ![LLaMA](https://img.shields.io/badge/LLaMA-FF6B6B?style=flat&logoColor=white)
+
+Privacy-focused local coding assistant using Ollama and LLaMA models. CLI tool for code generation and debugging support.  
 <a href="https://medium.com/@balazskocsis/list/ollama-run-llms-localy-f9f124256761" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
 
 ### **[MCP Servers](https://github.com/bkocis/mcp-servers)** (2024-2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
-Collection of Model Context Protocol servers enabling LLM tool integration and extensibility. Implements standardized MCP protocol for seamless communication between language models and external tools. Features modular server architecture, JSON-RPC communication, and comprehensive tool registry. Includes practical implementations for file operations, web search, and API integrations with proper error handling and security measures.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white) ![API](https://img.shields.io/badge/API-FF6B35?style=flat&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-8A2BE2?style=flat&logoColor=white)
+
+Collection of Model Context Protocol servers for LLM tool integration. Enables seamless communication between language models and external tools.
 
 ### **[Serve Yourself Your Music](https://github.com/bkocis/serve-yourself-your-music-public)** (2025) ![Public](https://img.shields.io/badge/Repo-Public/_Private_deployment-brightgreen)
-Web-based music streaming platform with YouTube and SoundCloud integration. Features automated CI/CD pipeline using GitHub Actions for remote server deployment. Core functionality includes audio extraction via yt-dlp, web-based media player with clean UI, and containerized deployment with Docker. Demonstrates DevOps practices with automated testing and deployment workflows.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) ![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)
+
+Web-based music streaming platform with YouTube and SoundCloud integration. Features CI/CD deployment and containerized architecture.  
 <a href="https://medium.com/@balazskocis/deploying-to-a-server-with-github-actions-a-deep-dive-e8558e83a4d7" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
 
 ### **[System Monitor CLI App](https://github.com/bkocis/system-monitor-cli-app)** (2025) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Professional command-line system monitoring tool with proper Python packaging standards. Features comprehensive pyproject.toml configuration, automated testing with pytest, Makefile for development workflows, and modular architecture. Implements real-time system metrics collection using psutil with extensible CLI interface built on Click framework. Demonstrates production-ready Python package development with Poetry dependency management.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![CLI](https://img.shields.io/badge/CLI-4EAA25?style=flat&logo=gnubash&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat&logo=poetry&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+
+Command-line system monitoring tool built with Python. Real-time system metrics collection with proper packaging and testing.
 
 ### **[O'Reilly Book RAG Learning System](https://github.com/bkocis/oreilly-book-rag)** (2025) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Full-stack RAG (Retrieval-Augmented Generation) application for interactive learning from PDF technical books. Backend implements document processing pipeline with vector embeddings, quiz generation, and progress tracking using SQLAlchemy ORM. Frontend built with React/TypeScript using Vite for fast development and TailwindCSS for responsive design. Features real-time Q&A, achievement system, and learning analytics dashboard with comprehensive user progress tracking.  
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+RAG application for interactive learning from technical PDF books. React frontend with FastAPI backend, featuring Q&A, quizzes, and progress tracking.  
 <a href="https://medium.com/@balazskocsis/how-to-define-endpoints-for-image-captioning-applications-using-fastapi-0ef5ffba65a4" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
 
 ### **[Chat with Documents and Images](https://github.com/bkocis/chat-with-documents-and-images)** (2024-2025) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Multimodal RAG system supporting both document and image understanding. Implements Ollama framework for local LLM deployment, LLaVA for vision-language tasks, and Qdrant for vector storage and similarity search. Features document chunking, embedding generation, and context-aware response generation for both text and visual content. Demonstrates advanced AI integration with privacy-focused local model deployment.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=llama&logoColor=white) ![LLaVA](https://img.shields.io/badge/LLaVA-FF6B6B?style=flat&logoColor=white) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logoColor=white)
+
+Multimodal RAG system for document and image understanding. Uses Ollama, LLaVA, and Qdrant for local AI-powered chat with visual content.
 
 ### **[Function Calling with Ollama](https://github.com/bkocis/function-calling-with-ollama)** (2024) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Demonstration of structured function calling capabilities with Ollama LLMs. Implements JSON schema validation for function parameters, multiple tool orchestration, and structured output parsing. Shows practical examples of LLM-driven automation with proper error handling and function parameter validation. Features comprehensive examples of tool integration patterns and best practices for LLM function calling.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=llama&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white) ![API](https://img.shields.io/badge/API-FF6B35?style=flat&logoColor=white)
+
+Structured function calling with Ollama LLMs. Examples of tool orchestration, JSON schema validation, and LLM-driven automation.
 
 ### **[Home Surveillance with Multimodal LLMs](https://github.com/bkocis/home-surveillance-with-multimodal-llms)** (2024) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Real-time surveillance system leveraging multimodal LLMs for intelligent image analysis. Integrates camera feed processing with LLaVA model for scene understanding and threat detection. Features automated image captioning, anomaly detection, and natural language descriptions of surveillance footage using local LLM deployment. Demonstrates practical computer vision applications with edge AI deployment.  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=llama&logoColor=white) ![LLaVA](https://img.shields.io/badge/LLaVA-FF6B6B?style=flat&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=flat&logo=OpenCV&logoColor=white)
+
+Real-time surveillance system using multimodal LLMs for intelligent image analysis. LLaVA-powered scene understanding and threat detection.  
 <a href="https://python.plainenglish.io/home-surveillance-with-llms-ollama-using-llava-1-6-005f193293d3" target="blank"><img align="top" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Read on Medium"/></a>
 
 ### **[Advanced Python Concepts](https://github.com/bkocis/advance-your-python)** (2017-2025) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Educational repository demonstrating advanced Python programming concepts. Covers object-oriented programming, multiprocessing techniques, decorators, and generator expressions. Features interactive Jupyter notebooks with comprehensive examples and is deployed as GitHub Pages site for easy access. Includes practical implementations of design patterns and performance optimization techniques with detailed explanations and exercises.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=flat&logo=github&logoColor=white)
+
+Educational repository covering advanced Python concepts. Interactive Jupyter notebooks with OOP, decorators, multiprocessing, and design patterns.
 
 ### **[AlgoRun - Crystallography Automation](https://github.com/bkocis/AlgoRun)** (2018-2025) ![Public](https://img.shields.io/badge/Repo-Public-brightgreen)
-Automated Rietveld refinement tool for crystallographic data analysis. Interfaces with FullProf software for powder diffraction analysis, implementing automated parameter optimization and result processing. Features batch processing capabilities, statistical analysis of refinement results, and integration with scientific computing workflows for materials science research. Demonstrates domain-specific automation and scientific computing expertise.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Scientific Computing](https://img.shields.io/badge/Scientific-Computing-blue?style=flat&logoColor=white) ![Crystallography](https://img.shields.io/badge/Crystallography-purple?style=flat&logoColor=white)
+
+Automated crystallographic data analysis tool. Interfaces with FullProf software for powder diffraction analysis and batch processing.
 
 
 
