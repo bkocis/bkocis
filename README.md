@@ -9,16 +9,15 @@ Hi,👋!
 **Repository:** bkocis | Stars: 0 | Forks: 0  
 *Description:* None
 
-**Commits:** 17 commits by 2 contributor(s)  
+**Commits:** 22 commits by 3 contributor(s)  
 Recent commits:
-- `7c6bdaa` fix - Balazs.Kocsis
-- `03afacd` cron - Balazs.Kocis  
-- `4df2b33` cron - Balazs.Kocis
+- `684def3` readme edit - Balazs.Kocsis
+- `3b65ae4` secret - Balazs.Kocsis
+- `8bd697e` Merge branch 'main' of https://github.com/bkocis/bkocis - Balazs.Kocsis
 
 **Pull Requests:** 0 open | 1 merged | 2 closed  
 Recently merged:
-- #2: Update wit hsummaries 
-
+- #2: Update wit hsummaries
 ### **[Paper Piper](https://github.com/bkocis/paper-piper)** (2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat&logo=poetry&logoColor=white)
 
