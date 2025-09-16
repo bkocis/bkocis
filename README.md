@@ -1,9 +1,5 @@
 Hi,👋! 
 
-
-## Recent projects on which I waste my time on (github's mcp server summaried my latest public AND private repos):
-
-
 ## Weekly Summary
 
 **Repository:** bkocis | Stars: 0 | Forks: 0  
@@ -12,6 +8,11 @@ Hi,👋!
 **Commits:** 1 commits by 1 contributor(s)  
 Recent commits:
 - `c4b0bc7` 🤖 Weekly repository summary update - 2025-09-08 - balazs.kocsis
+
+<details>
+  
+<Summary>Currently working on</Summary>
+
 ### **[Paper Piper](https://github.com/bkocis/paper-piper)** (2025) ![Private](https://img.shields.io/badge/Repo-Private-red)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat&logo=poetry&logoColor=white)
 
@@ -76,7 +77,7 @@ Educational repository covering advanced Python concepts. Interactive Jupyter no
 
 Automated crystallographic data analysis tool. Interfaces with FullProf software for powder diffraction analysis and batch processing.
 
-
+</details>
 
 <details>
 <summary> Other projects and coursework</summary>
