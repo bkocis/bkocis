@@ -2,12 +2,16 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Repository:** bkocis | Stars: 0 | Forks: 0  
-*Description:* None
+**Repository:** bkocis  
+**Description:** Personal repository showcasing various projects and contributions  
+**Community:** 0 stars • 0 forks
 
-**Commits:** 1 commits by 1 contributor(s)  
-Recent commits:
-- `c4b0bc7` 🤖 Weekly repository summary update - 2025-09-08 - balazs.kocsis
+**Recent Activity:** 2 commits from 2 contributors
+
+**Latest Changes:**
+• update generation script (September 22, 2025)
+• Update README.md (September 16, 2025)
+
 
 <details>
   
