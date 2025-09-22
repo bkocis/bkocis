@@ -7,12 +7,12 @@ and generates a summary of changes, commits, pull requests, and issues.
 """
 
 import os
+import re
 import sys
-import json
-import requests
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
-import re
+
+import requests
 
 
 class GitHubMCPClient:
@@ -121,50 +121,33 @@ class SummaryGenerator:
         self.activity = activity_data
         
     def generate_weekly_summary(self) -> str:
-        """Generate a comprehensive weekly summary"""
+        """Generate a weekly summary matching the current README.md format"""
         summary_parts = []
         
-        # Repository overview
+        # Repository overview - always include this
         repo_info = self.activity.get("repository_info", {})
         if repo_info:
             summary_parts.append(self._format_repository_overview(repo_info))
         
-        # Commits summary
+        # Commits summary - always include this  
         commits = self.activity.get("commits", [])
-        if commits:
-            summary_parts.append(self._format_commits_summary(commits))
+        summary_parts.append(self._format_commits_summary(commits))
         
-        # Pull requests summary
-        prs = self.activity.get("pull_requests", [])
-        if prs:
-            summary_parts.append(self._format_pull_requests_summary(prs))
-        
-        # Issues summary
-        issues = self.activity.get("issues", [])
-        if issues:
-            summary_parts.append(self._format_issues_summary(issues))
-        
-        # Releases summary
-        releases = self.activity.get("releases", [])
-        if releases:
-            summary_parts.append(self._format_releases_summary(releases))
-        
-        if not summary_parts:
-            return "## Weekly Summary\n\nNo significant activity in the past week.\n"
-        
-        return "## Weekly Summary\n\n" + "\n\n".join(summary_parts) + "\n"
+        return "## Weekly Summary\n\n" + "\n\n".join(summary_parts)
     
     def _format_repository_overview(self, repo_info: Dict) -> str:
-        """Format repository overview"""
+        """Format repository overview with professional styling"""
         name = repo_info.get("name", "Unknown")
-        description = repo_info.get("description", "No description available")
+        description = repo_info.get("description")
+        if description is None or description.strip() == "":
+            description = "Personal repository showcasing various projects and contributions"
         stars = repo_info.get("stargazers_count", 0)
         forks = repo_info.get("forks_count", 0)
         
-        return f"**Repository:** {name} | Stars: {stars} | Forks: {forks}  \n*Description:* {description}"
+        return f"**Repository:** {name}  \n**Description:** {description}  \n**Community:** {stars} stars • {forks} forks"
     
     def _format_commits_summary(self, commits: List[Dict]) -> str:
-        """Format commits summary"""
+        """Format commits summary with professional styling"""
         commit_count = len(commits)
         authors = set()
         
@@ -172,17 +155,37 @@ class SummaryGenerator:
             author = commit.get("commit", {}).get("author", {}).get("name", "Unknown")
             authors.add(author)
         
-        summary = f"**Commits:** {commit_count} commits by {len(authors)} contributor(s)"
+        # Create a more professional header
+        contributor_text = "contributor" if len(authors) == 1 else "contributors"
+        commit_text = "commit" if commit_count == 1 else "commits"
+        
+        summary = f"**Recent Activity:** {commit_count} {commit_text} from {len(authors)} {contributor_text}"
         
         if commit_count > 0:
             recent_commits = commits[:3]  # Show last 3 commits
-            summary += "  \nRecent commits:"
+            summary += "\n\n**Latest Changes:**"
             
             for commit in recent_commits:
                 message = commit.get("commit", {}).get("message", "").split('\n')[0]
+                # Clean up automated commit messages
+                if message.startswith("🤖"):
+                    message = message.replace("🤖 ", "").strip()
+                
                 author = commit.get("commit", {}).get("author", {}).get("name", "Unknown")
-                sha = commit.get("sha", "")[:7]
-                summary += f"\n- `{sha}` {message} - {author}"
+                date = commit.get("commit", {}).get("author", {}).get("date", "")
+                if date:
+                    # Parse and format date to match current format (YYYY-MM-DD)
+                    try:
+                        parsed_date = datetime.fromisoformat(date.replace("Z", "+00:00"))
+                        formatted_date = parsed_date.strftime("%B %d, %Y")
+                    except:
+                        formatted_date = date[:10]  # fallback to first 10 chars
+                else:
+                    formatted_date = "unknown date"
+                
+                summary += f"\n• {message} ({formatted_date})"
+        else:
+            summary += "\n\n*No recent commits this week*"
         
         return summary
     
@@ -236,24 +239,29 @@ class SummaryGenerator:
 
 
 def update_readme_with_summary(summary: str, readme_path: str = "README.md"):
-    """Update README.md with the weekly summary"""
+    """Update README.md with the weekly summary while preserving existing structure"""
     try:
         with open(readme_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Look for existing summary section and replace it
-        summary_pattern = r'## (📊 )?Weekly Summary.*?(?=\n##|\Z)'
+        # Look for the specific pattern in the current README.md
+        # We want to replace only the repository info and commits section, not the entire "Currently working on" section
+        summary_pattern = r'(## Weekly Summary\s*\n\s*\*\*Repository:\*\*.*?(?=\n<details>|\n\n<details>))'
         
         if re.search(summary_pattern, content, re.DOTALL):
-            # Replace existing summary
-            new_content = re.sub(summary_pattern, summary.rstrip(), content, flags=re.DOTALL)
+            # Replace existing summary section while preserving the detailed project sections
+            new_content = re.sub(summary_pattern, summary.rstrip() + '\n', content, flags=re.DOTALL)
         else:
-            # Add summary after the first paragraph/section
-            lines = content.split('\n')
-            insert_position = 5  # After the header and emoji line
-            
-            lines.insert(insert_position, '\n' + summary)
-            new_content = '\n'.join(lines)
+            # If pattern not found, try a broader pattern
+            broader_pattern = r'## Weekly Summary.*?(?=\n<details>|\Z)'
+            if re.search(broader_pattern, content, re.DOTALL):
+                new_content = re.sub(broader_pattern, summary.rstrip() + '\n', content, flags=re.DOTALL)
+            else:
+                # Fallback: add summary after greeting
+                lines = content.split('\n')
+                insert_position = 2  # After "Hi,👋!" and empty line
+                lines.insert(insert_position, '\n' + summary)
+                new_content = '\n'.join(lines)
         
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
