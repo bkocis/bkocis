@@ -2,14 +2,18 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Repository:** bkocis  
-**Description:** Personal repository showcasing various projects and contributions  
-**Community:** 0 stars • 0 forks
+**Repository:** bkocis's repositories  
+**Description:** Aggregated activity across 153 repositories  
+**Community:** 34 stars • 14 forks • 153 repositories
 
-**Recent Activity:** 0 commits from 0 contributors
+**Recent Activity:** 54 commits from 2 contributors across 2 repositories
 
-*No recent commits this week*
-
+**Latest Changes:**
+• [berghain-challenges-listenlabs-ai] completed (December 28, 2025)
+• [berghain-challenges-listenlabs-ai] 5c289f89-9e3a-4ccd-8f23-86a5062f2f06 (December 28, 2025)
+• [berghain-challenges-listenlabs-ai] 421db1b7-0e17-42c8-984d-4a7a664a85ed (December 28, 2025)
+• [berghain-challenges-listenlabs-ai] 607cf186-8eeb-41b6-bd6c-da7f17219e4e (December 28, 2025)
+• [berghain-challenges-listenlabs-ai] b3a3efba-538d-4776-ab90-0f7d25cfc750 (December 28, 2025)
 
 <details>
   
