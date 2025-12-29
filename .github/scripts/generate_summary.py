@@ -9,7 +9,7 @@ and generates a summary of changes, commits, pull requests, and issues.
 import os
 import re
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Any, Optional
 
 import requests
@@ -31,14 +31,34 @@ class GitHubAPIClient:
         
     def get_repository_activity(self, days: int = 7) -> Dict[str, Any]:
         """Get repository activity for the last N days"""
-        since = (datetime.utcnow() - timedelta(days=days)).isoformat() + "Z"
+        now = datetime.utcnow()
+        since = (now - timedelta(days=days)).isoformat() + "Z"
+        since_date = now - timedelta(days=days)
+        
+        repo_info = self._get_repository_info()
+        commits = self._get_commits(since)
+        
+        # Add repo info to commits for consistency with multi-repo format
+        repo_full_name = f"{self.owner}/{self.repo}"
+        for commit in commits:
+            commit["_repo"] = repo_full_name
+            commit["_repo_info"] = {
+                "name": repo_info.get("name", self.repo) if repo_info else self.repo,
+                "full_name": repo_full_name,
+                "description": repo_info.get("description", "") if repo_info else "",
+                "html_url": repo_info.get("html_url", f"https://github.com/{repo_full_name}") if repo_info else f"https://github.com/{repo_full_name}"
+            }
         
         activity = {
-            "commits": self._get_commits(since),
+            "commits": commits,
             "pull_requests": self._get_pull_requests(since),
             "issues": self._get_issues(since),
             "releases": self._get_releases(since),
-            "repository_info": self._get_repository_info()
+            "repository_info": repo_info,
+            "date_range": {
+                "since": since_date,
+                "until": now
+            }
         }
         
         return activity
@@ -154,6 +174,101 @@ class GitHubAPIClient:
         """Get basic repository information"""
         return self._make_request(f"/repos/{self.owner}/{self.repo}")
     
+    def _get_starred_repositories(self, days: int = 30) -> List[Dict]:
+        """Get repositories starred by the user in the last N days
+        
+        curl -X GET "https://api.github.com/user/starred?sort=created&direction=desc&per_page=100&page=1" \
+  -H "Authorization: token ${GITHUB_TOKEN}" \
+  -H "Accept: application/vnd.github.v3.star+json" \
+  -H "User-Agent: GitHub-Weekly-Summary-Bot/1.0" | jq '.[0]'
+        
+        
+        """
+        starred_repos = []
+        page = 1
+        per_page = 100
+        now = datetime.now(timezone.utc)
+        since_date = now - timedelta(days=days)
+        
+        # Use special header to get starred_at field (matches working curl command)
+        headers_with_star = {
+            **self.headers,
+            "Accept": "application/vnd.github.v3.star+json"
+        }
+        
+        print(f"⭐ Fetching starred repositories from the past {days} days...")
+        
+        while True:
+            params = {
+                "sort": "created",
+                "direction": "desc",
+                "per_page": per_page,
+                "page": page
+            }
+            
+            try:
+                url = f"{self.base_url}/user/starred"
+                response = requests.get(url, headers=headers_with_star, params=params)
+                response.raise_for_status()
+                repos = response.json()
+                
+                if not repos or not isinstance(repos, list):
+                    break
+                
+                # Filter repos by starred_at date
+                # Note: sort=created sorts by repo creation date, not starred date,
+                # so we need to check all repos and filter by starred_at
+                for item in repos:
+                    starred_at_str = item.get("starred_at")
+                    repo_data = item.get("repo", {})
+                    
+                    if starred_at_str:
+                        try:
+                            starred_at = datetime.fromisoformat(starred_at_str.replace("Z", "+00:00"))
+                            if starred_at >= since_date:
+                                # Extract only the needed fields from the repo object
+                                extracted_repo = {
+                                    "starred_at": starred_at_str,
+                                    "name": repo_data.get("name", ""),
+                                    "full_name": repo_data.get("full_name", ""),
+                                    "html_url": repo_data.get("html_url", ""),
+                                    "description": repo_data.get("description", ""),
+                                    "owner": repo_data.get("owner", {})
+                                }
+                                starred_repos.append(extracted_repo)
+                            # Continue checking all repos since sort is by creation date, not starred date
+                        except (ValueError, AttributeError) as e:
+                            # If date parsing fails, skip this repo
+                            print(f"   Warning: Could not parse starred_at date: {e}")
+                            continue
+                    # If no starred_at field, skip this repo
+                    # This shouldn't happen with the star+json header, but handle it gracefully
+                
+                # If we got fewer results than per_page, we're done
+                if len(repos) < per_page:
+                    break
+                
+                # Continue to next page to check all starred repos
+                # We can't stop early since sorting is by creation date, not starred date
+                page += 1
+                
+            except requests.RequestException as e:
+                print(f"   Error fetching starred repositories: {e}")
+                break
+        
+        # Sort by starred_at date (most recent first)
+        starred_repos.sort(
+            key=lambda x: (
+                datetime.fromisoformat(x.get("starred_at", "").replace("Z", "+00:00"))
+                if x.get("starred_at") else datetime.min.replace(tzinfo=timezone.utc)
+            ),
+            reverse=True
+        )
+        
+        print(f"   Found {len(starred_repos)} starred repositories")
+        
+        return starred_repos
+    
     def _get_all_repositories(self, include_private: bool = True) -> List[Dict]:
         """Get all repositories for the authenticated user"""
         repos = []
@@ -189,7 +304,9 @@ class GitHubAPIClient:
     
     def get_all_repositories_activity(self, days: int = 7, include_private: bool = True) -> Dict[str, Any]:
         """Get aggregated activity across all repositories for the last N days"""
-        since = (datetime.utcnow() - timedelta(days=days)).isoformat() + "Z"
+        now = datetime.utcnow()
+        since = (now - timedelta(days=days)).isoformat() + "Z"
+        since_date = now - timedelta(days=days)
         
         print(f"📦 Fetching all repositories for {self.owner}...")
         all_repos = self._get_all_repositories(include_private=include_private)
@@ -217,9 +334,15 @@ class GitHubAPIClient:
             issues = self._get_issues_for_repo(repo_owner, repo_name_only, since)
             releases = self._get_releases_for_repo(repo_owner, repo_name_only, since)
             
-            # Add repo name to commits for tracking
+            # Add repo info to commits for tracking
             for commit in commits:
                 commit["_repo"] = repo_name
+                commit["_repo_info"] = {
+                    "name": repo.get("name", repo_name_only),
+                    "full_name": repo_name,
+                    "description": repo.get("description", ""),
+                    "html_url": repo.get("html_url", "")
+                }
             for pr in prs:
                 pr["_repo"] = repo_name
             for issue in issues:
@@ -252,15 +375,20 @@ class GitHubAPIClient:
             "pull_requests": all_prs,
             "issues": all_issues,
             "releases": all_releases,
-            "repository_info": aggregated_info
+            "repository_info": aggregated_info,
+            "date_range": {
+                "since": since_date,
+                "until": now
+            }
         }
 
 
 class SummaryGenerator:
     """Generate human-readable summaries from GitHub activity data"""
     
-    def __init__(self, activity_data: Dict[str, Any]):
+    def __init__(self, activity_data: Dict[str, Any], date_range: Optional[Dict[str, datetime]] = None):
         self.activity = activity_data
+        self.date_range = date_range or {}
         
     def generate_weekly_summary(self) -> str:
         """Generate a weekly summary matching the current README.md format"""
@@ -275,6 +403,11 @@ class SummaryGenerator:
         commits = self.activity.get("commits", [])
         summary_parts.append(self._format_commits_summary(commits))
         
+        # Starred repositories summary - always include this
+        starred_repos = self.activity.get("starred_repositories", [])
+        if starred_repos:
+            summary_parts.append(self._format_starred_repositories_summary(starred_repos))
+        
         return "## Weekly Summary\n\n" + "\n\n".join(summary_parts)
     
     def _format_repository_overview(self, repo_info: Dict) -> str:
@@ -287,7 +420,7 @@ class SummaryGenerator:
         forks = repo_info.get("forks_count", 0)
         total_repos = repo_info.get("total_repositories")
         
-        overview = f"**Repository:** {name}  \n**Description:** {description}  \n**Community:** {stars} stars • {forks} forks"
+        overview = f"**Community:** {stars} stars • {forks} forks"
         if total_repos:
             overview += f" • {total_repos} repositories"
         
@@ -315,36 +448,115 @@ class SummaryGenerator:
         if len(repos_with_commits) > 0:
             summary += f" across {len(repos_with_commits)} {repo_text}"
         
+        # Add date range if available
+        if self.date_range:
+            since_date = self.date_range.get("since")
+            until_date = self.date_range.get("until")
+            if since_date and until_date:
+                since_str = since_date.strftime("%B %d, %Y")
+                until_str = until_date.strftime("%B %d, %Y")
+                summary += f"\n**Date Range:** {since_str} to {until_str}"
+        
         if commit_count > 0:
-            recent_commits = commits[:5]  # Show last 5 commits (increased from 3)
+            recent_commits = commits[:10]  # Show last 10 commits to have enough for grouping
             summary += "\n\n**Latest Changes:**"
             
-            for commit in recent_commits:
-                message = commit.get("commit", {}).get("message", "").split('\n')[0]
-                # Clean up automated commit messages
-                if message.startswith("🤖"):
-                    message = message.replace("🤖 ", "").strip()
+            # If multiple repos, group commits by repository
+            if len(repos_with_commits) > 1:
+                # Group commits by repository
+                commits_by_repo = {}
+                for commit in recent_commits:
+                    repo = commit.get("_repo", "unknown")
+                    if repo not in commits_by_repo:
+                        commits_by_repo[repo] = []
+                    commits_by_repo[repo].append(commit)
                 
-                author = commit.get("commit", {}).get("author", {}).get("name", "Unknown")
-                date = commit.get("commit", {}).get("author", {}).get("date", "")
-                repo = commit.get("_repo", "")
+                # Format commits grouped by repository
+                repo_sections = []
+                for repo_full_name, repo_commits in commits_by_repo.items():
+                    repo_info = repo_commits[0].get("_repo_info", {})
+                    repo_name = repo_info.get("name", repo_full_name.split("/")[-1])
+                    repo_description = repo_info.get("description", "")
+                    repo_url = repo_info.get("html_url", "")
+                    
+                    # Create repo header
+                    if repo_url:
+                        repo_header = f"\n### [{repo_name}]({repo_url})"
+                    else:
+                        repo_header = f"\n### {repo_name}"
+                    
+                    if repo_description:
+                        repo_header += f"\n{repo_description}"
+                    
+                    repo_sections.append(repo_header)
+                    
+                    # Add commits for this repo
+                    commit_lines = []
+                    for commit in repo_commits[:5]:  # Limit to 5 commits per repo
+                        message = commit.get("commit", {}).get("message", "").split('\n')[0]
+                        # Clean up automated commit messages
+                        if message.startswith("🤖"):
+                            message = message.replace("🤖 ", "").strip()
+                        
+                        date = commit.get("commit", {}).get("author", {}).get("date", "")
+                        
+                        if date:
+                            try:
+                                parsed_date = datetime.fromisoformat(date.replace("Z", "+00:00"))
+                                formatted_date = parsed_date.strftime("%B %d, %Y")
+                            except:
+                                formatted_date = date[:10]
+                        else:
+                            formatted_date = "unknown date"
+                        
+                        commit_lines.append(f"• {message} ({formatted_date})")
+                    
+                    # Join commits with empty lines between them
+                    if commit_lines:
+                        repo_sections.append("\n\n".join(commit_lines))
                 
-                if date:
-                    # Parse and format date to match current format (YYYY-MM-DD)
-                    try:
-                        parsed_date = datetime.fromisoformat(date.replace("Z", "+00:00"))
-                        formatted_date = parsed_date.strftime("%B %d, %Y")
-                    except:
-                        formatted_date = date[:10]  # fallback to first 10 chars
-                else:
-                    formatted_date = "unknown date"
+                # Join all repo sections with double newline between repos
+                summary += "\n\n".join(repo_sections)
+            else:
+                # Single repo - show repo name/description and list commits with empty lines
+                repo_info_dict = recent_commits[0].get("_repo_info", {}) if recent_commits else {}
+                repo_name = repo_info_dict.get("name", "Repository")
+                repo_description = repo_info_dict.get("description", "")
+                repo_url = repo_info_dict.get("html_url", "")
                 
-                # Include repo name if we have multiple repos
-                if len(repos_with_commits) > 1 and repo:
-                    repo_short = repo.split("/")[-1]  # Just the repo name, not owner/repo
-                    summary += f"\n• [{repo_short}] {message} ({formatted_date})"
-                else:
-                    summary += f"\n• {message} ({formatted_date})"
+                # Add repo header if we have repo info
+                if repo_info_dict:
+                    if repo_url:
+                        summary += f"\n### [{repo_name}]({repo_url})"
+                    else:
+                        summary += f"\n### {repo_name}"
+                    
+                    if repo_description:
+                        summary += f"\n{repo_description}"
+                
+                commit_lines = []
+                for commit in recent_commits[:5]:
+                    message = commit.get("commit", {}).get("message", "").split('\n')[0]
+                    # Clean up automated commit messages
+                    if message.startswith("🤖"):
+                        message = message.replace("🤖 ", "").strip()
+                    
+                    date = commit.get("commit", {}).get("author", {}).get("date", "")
+                    
+                    if date:
+                        try:
+                            parsed_date = datetime.fromisoformat(date.replace("Z", "+00:00"))
+                            formatted_date = parsed_date.strftime("%B %d, %Y")
+                        except:
+                            formatted_date = date[:10]
+                    else:
+                        formatted_date = "unknown date"
+                    
+                    commit_lines.append(f"• {message} ({formatted_date})")
+                
+                # Join with empty lines between commits
+                if commit_lines:
+                    summary += "\n" + "\n\n".join(commit_lines)
         else:
             summary += "\n\n*No recent commits this week*"
         
@@ -395,6 +607,74 @@ class SummaryGenerator:
                 name = release.get("name") or release.get("tag_name", "Unnamed")
                 tag = release.get("tag_name", "")
                 summary += f"\n- {name} ({tag})"
+        
+        return summary
+    
+    def _format_starred_repositories_summary(self, starred_repos: List[Dict]) -> str:
+        """Format starred repositories summary"""
+        count = len(starred_repos)
+        repo_text = "repository" if count == 1 else "repositories"
+        
+        summary = f"**Recently Starred:** {count} {repo_text} in the past month"
+        
+        if starred_repos:
+            summary += "\n\n**Starred Repositories:**"
+            
+            for repo in starred_repos[:10]:  # Show up to 10 most recently starred
+                # Get repository information from extracted data
+                full_name = repo.get("full_name", "")
+                description = repo.get("description", "")
+                html_url = repo.get("html_url", "")
+                repo_name = repo.get("name", "")
+                
+                # Get owner information for fallback
+                owner = repo.get("owner", {})
+                if isinstance(owner, dict):
+                    owner_login = owner.get("login", "")
+                else:
+                    owner_login = ""
+                
+                # Fallback: construct full_name from owner and name if not present
+                if not full_name:
+                    if owner_login and repo_name:
+                        full_name = f"{owner_login}/{repo_name}"
+                    elif repo_name:
+                        # If we only have name, try to get owner from other fields
+                        if isinstance(owner, str):
+                            full_name = f"{owner}/{repo_name}"
+                
+                # Fallback: construct html_url if not present
+                if not html_url:
+                    if full_name:
+                        html_url = f"https://github.com/{full_name}"
+                    elif repo_name and owner_login:
+                        html_url = f"https://github.com/{owner_login}/{repo_name}"
+                
+                # Create the repository entry with proper markdown formatting
+                if html_url and full_name:
+                    repo_entry = f"\n- [{full_name}]({html_url})"
+                elif html_url and repo_name and owner_login:
+                    # Fallback: use owner/repo_name if full_name not available
+                    full_name_fallback = f"{owner_login}/{repo_name}"
+                    repo_entry = f"\n- [{full_name_fallback}]({html_url})"
+                elif full_name:
+                    repo_entry = f"\n- {full_name}"
+                elif repo_name and owner_login:
+                    repo_entry = f"\n- [{owner_login}/{repo_name}](https://github.com/{owner_login}/{repo_name})"
+                elif repo_name:
+                    repo_entry = f"\n- {repo_name}"
+                else:
+                    # Last resort: print debug info and skip
+                    print(f"   Warning: Could not extract repository info from starred repo. Keys: {list(repo.keys())}")
+                    continue
+                
+                # Add description if available
+                if description:
+                    repo_entry += f" - {description}"
+                
+                summary += repo_entry
+        else:
+            summary += "\n\n*No repositories starred in the past month*"
         
         return summary
 
@@ -508,10 +788,18 @@ def main():
         print(f"🔍 Generating weekly summary for {repo_owner}/{repo_name}")
         print("📊 Fetching repository activity...")
         activity_data = github_client.get_repository_activity(days=7)
+
+    # Get starred repositories
+    print("⭐ Fetching starred repositories...")
+    starred_repos = github_client._get_starred_repositories(days=30)
+    activity_data["starred_repositories"] = starred_repos
+    
+    # Extract date range from activity data
+    date_range = activity_data.pop("date_range", None)
     
     # Generate summary
     print("📝 Generating summary...")
-    summary_generator = SummaryGenerator(activity_data)
+    summary_generator = SummaryGenerator(activity_data, date_range=date_range)
     weekly_summary = summary_generator.generate_weekly_summary()
     
     # Update README

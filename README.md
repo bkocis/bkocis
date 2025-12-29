@@ -2,18 +2,40 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Repository:** bkocis's repositories  
-**Description:** Aggregated activity across 153 repositories  
 **Community:** 34 stars • 14 forks • 153 repositories
 
-**Recent Activity:** 54 commits from 2 contributors across 2 repositories
+**Recent Activity:** 55 commits from 2 contributors across 3 repositories
+**Date Range:** December 22, 2025 to December 29, 2025
 
 **Latest Changes:**
-• [berghain-challenges-listenlabs-ai] completed (December 28, 2025)
-• [berghain-challenges-listenlabs-ai] 5c289f89-9e3a-4ccd-8f23-86a5062f2f06 (December 28, 2025)
-• [berghain-challenges-listenlabs-ai] 421db1b7-0e17-42c8-984d-4a7a664a85ed (December 28, 2025)
-• [berghain-challenges-listenlabs-ai] 607cf186-8eeb-41b6-bd6c-da7f17219e4e (December 28, 2025)
-• [berghain-challenges-listenlabs-ai] b3a3efba-538d-4776-ab90-0f7d25cfc750 (December 28, 2025)
+### [bkocis](https://github.com/bkocis/bkocis)
+
+• fix summary github api (December 28, 2025)
+
+
+### [berghain-challenges-listenlabs-ai](https://github.com/bkocis/berghain-challenges-listenlabs-ai)
+Listenlabs.ai game Berghain Challenge 
+
+• completed (December 28, 2025)
+
+• 5c289f89-9e3a-4ccd-8f23-86a5062f2f06 (December 28, 2025)
+
+• 421db1b7-0e17-42c8-984d-4a7a664a85ed (December 28, 2025)
+
+• 607cf186-8eeb-41b6-bd6c-da7f17219e4e (December 28, 2025)
+
+• b3a3efba-538d-4776-ab90-0f7d25cfc750 (December 28, 2025)
+
+**Recently Starred:** 7 repositories in the past month
+
+**Starred Repositories:**
+- [drisspg/transformer_nuggets](https://github.com/drisspg/transformer_nuggets) - A place to store reusable transformer components of my own creation or found on the interwebs
+- [giovi321/ios-backup-machine](https://github.com/giovi321/ios-backup-machine) - Offline, portable and automatic iPhone backup system
+- [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) - [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)
+- [microsoft/data-formulator](https://github.com/microsoft/data-formulator) - 🪄 Create rich visualizations with AI 
+- [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) - "DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"
+- [sst/opencode](https://github.com/sst/opencode) - The open source coding agent.
+- [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
 
 <details>
   
