@@ -35,6 +35,7 @@ jobs:
         REPO_OWNER: ${{ github.repository_owner }}
         REPO_NAME: ${{ github.event.repository.name }}
         CHECK_ALL_REPOS: "true"  # Check all repositories owned by the user
+        BLACKLISTED_REPOS: ${{ vars.BLACKLISTED_REPOS }}
       run: |
         python .github/scripts/generate_summary.py
         

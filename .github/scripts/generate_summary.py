@@ -458,11 +458,23 @@ class SummaryGenerator:
                 summary += f"\n**Date Range:** {since_str} to {until_str}"
         
         if commit_count > 0:
-            # Blacklist repositories that should not be shown
-            blacklisted_repos = {
-                "bkocis/bkocis",
-                "bkocis/bewerbungen"
-            }
+            # Read blacklisted repos from environment variable
+            blacklisted_repos_env = os.getenv("BLACKLISTED_REPOS")
+            if not blacklisted_repos_env:
+                raise ValueError("BLACKLISTED_REPOS environment variable is not defined. Summary generation stopped.")
+            
+            # Parse quoted, comma-separated list (e.g., "repo1","repo2","repo3")
+            blacklisted_repos = set()
+            # Split by comma, then strip quotes and whitespace from each item
+            for repo in blacklisted_repos_env.split(","):
+                repo = repo.strip()
+                # Remove surrounding quotes if present
+                if repo.startswith('"') and repo.endswith('"'):
+                    repo = repo[1:-1]
+                elif repo.startswith("'") and repo.endswith("'"):
+                    repo = repo[1:-1]
+                if repo:
+                    blacklisted_repos.add(repo)
             
             # Group all commits by repository (not just recent ones)
             commits_by_repo = {}
