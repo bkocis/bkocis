@@ -458,105 +458,62 @@ class SummaryGenerator:
                 summary += f"\n**Date Range:** {since_str} to {until_str}"
         
         if commit_count > 0:
-            recent_commits = commits[:10]  # Show last 10 commits to have enough for grouping
+            # Blacklist repositories that should not be shown
+            blacklisted_repos = {
+                "bkocis/bkocis",
+                "bkocis/bewerbungen"
+            }
+            
+            # Group all commits by repository (not just recent ones)
+            commits_by_repo = {}
+            for commit in commits:
+                repo = commit.get("_repo", "unknown")
+                # Skip blacklisted repositories
+                if repo in blacklisted_repos:
+                    continue
+                if repo not in commits_by_repo:
+                    commits_by_repo[repo] = []
+                commits_by_repo[repo].append(commit)
+            
             summary += "\n\n**Latest Changes:**"
             
-            # If multiple repos, group commits by repository
-            if len(repos_with_commits) > 1:
-                # Group commits by repository
-                commits_by_repo = {}
-                for commit in recent_commits:
-                    repo = commit.get("_repo", "unknown")
-                    if repo not in commits_by_repo:
-                        commits_by_repo[repo] = []
-                    commits_by_repo[repo].append(commit)
+            # Format commits grouped by repository
+            repo_sections = []
+            for repo_full_name, repo_commits in commits_by_repo.items():
+                repo_info = repo_commits[0].get("_repo_info", {})
+                repo_name = repo_info.get("name", repo_full_name.split("/")[-1])
+                repo_description = repo_info.get("description", "")
+                repo_url = repo_info.get("html_url", "")
                 
-                # Format commits grouped by repository
-                repo_sections = []
-                for repo_full_name, repo_commits in commits_by_repo.items():
-                    repo_info = repo_commits[0].get("_repo_info", {})
-                    repo_name = repo_info.get("name", repo_full_name.split("/")[-1])
-                    repo_description = repo_info.get("description", "")
-                    repo_url = repo_info.get("html_url", "")
-                    
-                    # Create repo header
-                    if repo_url:
-                        repo_header = f"\n### [{repo_name}]({repo_url})"
-                    else:
-                        repo_header = f"\n### {repo_name}"
-                    
-                    if repo_description:
-                        repo_header += f"\n{repo_description}"
-                    
-                    repo_sections.append(repo_header)
-                    
-                    # Add commits for this repo
-                    commit_lines = []
-                    for commit in repo_commits[:5]:  # Limit to 5 commits per repo
-                        message = commit.get("commit", {}).get("message", "").split('\n')[0]
-                        # Clean up automated commit messages
-                        if message.startswith("🤖"):
-                            message = message.replace("🤖 ", "").strip()
-                        
-                        date = commit.get("commit", {}).get("author", {}).get("date", "")
-                        
-                        if date:
-                            try:
-                                parsed_date = datetime.fromisoformat(date.replace("Z", "+00:00"))
-                                formatted_date = parsed_date.strftime("%B %d, %Y")
-                            except:
-                                formatted_date = date[:10]
-                        else:
-                            formatted_date = "unknown date"
-                        
-                        commit_lines.append(f"• {message} ({formatted_date})")
-                    
-                    # Join commits with empty lines between them
-                    if commit_lines:
-                        repo_sections.append("\n\n".join(commit_lines))
-                
-                # Join all repo sections with double newline between repos
-                summary += "\n\n".join(repo_sections)
-            else:
-                # Single repo - show repo name/description and list commits with empty lines
-                repo_info_dict = recent_commits[0].get("_repo_info", {}) if recent_commits else {}
-                repo_name = repo_info_dict.get("name", "Repository")
-                repo_description = repo_info_dict.get("description", "")
-                repo_url = repo_info_dict.get("html_url", "")
-                
-                # Add repo header if we have repo info
-                if repo_info_dict:
-                    if repo_url:
-                        summary += f"\n### [{repo_name}]({repo_url})"
-                    else:
-                        summary += f"\n### {repo_name}"
-                    
-                    if repo_description:
-                        summary += f"\n{repo_description}"
-                
-                commit_lines = []
-                for commit in recent_commits[:5]:
+                # Get last 3 commits for this repo
+                last_3_commits = repo_commits[:3]
+                commit_messages = []
+                for commit in last_3_commits:
                     message = commit.get("commit", {}).get("message", "").split('\n')[0]
                     # Clean up automated commit messages
                     if message.startswith("🤖"):
                         message = message.replace("🤖 ", "").strip()
-                    
-                    date = commit.get("commit", {}).get("author", {}).get("date", "")
-                    
-                    if date:
-                        try:
-                            parsed_date = datetime.fromisoformat(date.replace("Z", "+00:00"))
-                            formatted_date = parsed_date.strftime("%B %d, %Y")
-                        except:
-                            formatted_date = date[:10]
-                    else:
-                        formatted_date = "unknown date"
-                    
-                    commit_lines.append(f"• {message} ({formatted_date})")
+                    commit_messages.append(message)
                 
-                # Join with empty lines between commits
-                if commit_lines:
-                    summary += "\n" + "\n\n".join(commit_lines)
+                # Create repo header with commits in brackets on the same line (using "-" instead of "###")
+                if repo_url:
+                    repo_header = f"\n- [{repo_name}]({repo_url})"
+                else:
+                    repo_header = f"\n- {repo_name}"
+
+                # Add description on a separate line if it exists
+                if repo_description:
+                    repo_header += f"\n{repo_description}"
+                
+                # Add commits in brackets on the same line as repo name
+                if commit_messages:
+                    commits_text = ", ".join(commit_messages)
+                    repo_header += f" ({commits_text})"
+    
+                repo_sections.append(repo_header)
+            
+            # Join all repo sections with double newline between repos
+            summary += "\n\n".join(repo_sections)
         else:
             summary += "\n\n*No recent commits this week*"
         
@@ -618,8 +575,6 @@ class SummaryGenerator:
         summary = f"**Recently Starred:** {count} {repo_text} in the past month"
         
         if starred_repos:
-            summary += "\n\n**Starred Repositories:**"
-            
             for repo in starred_repos[:10]:  # Show up to 10 most recently starred
                 # Get repository information from extracted data
                 full_name = repo.get("full_name", "")

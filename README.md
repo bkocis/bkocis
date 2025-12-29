@@ -4,33 +4,14 @@ Hi,👋!
 
 **Community:** 34 stars • 14 forks • 153 repositories
 
-**Recent Activity:** 56 commits from 2 contributors across 3 repositories
+**Recent Activity:** 57 commits from 2 contributors across 3 repositories
 **Date Range:** December 22, 2025 to December 29, 2025
 
 **Latest Changes:**
-### [bkocis](https://github.com/bkocis/bkocis)
-
-• fix summary github api | starred repos added (December 29, 2025)
-
-• fix summary github api (December 28, 2025)
-
-
-### [berghain-challenges-listenlabs-ai](https://github.com/bkocis/berghain-challenges-listenlabs-ai)
+- [berghain-challenges-listenlabs-ai](https://github.com/bkocis/berghain-challenges-listenlabs-ai) (completed, 5c289f89-9e3a-4ccd-8f23-86a5062f2f06, 421db1b7-0e17-42c8-984d-4a7a664a85ed)
 Listenlabs.ai game Berghain Challenge 
 
-• completed (December 28, 2025)
-
-• 5c289f89-9e3a-4ccd-8f23-86a5062f2f06 (December 28, 2025)
-
-• 421db1b7-0e17-42c8-984d-4a7a664a85ed (December 28, 2025)
-
-• 607cf186-8eeb-41b6-bd6c-da7f17219e4e (December 28, 2025)
-
-• b3a3efba-538d-4776-ab90-0f7d25cfc750 (December 28, 2025)
-
 **Recently Starred:** 7 repositories in the past month
-
-**Starred Repositories:**
 - [drisspg/transformer_nuggets](https://github.com/drisspg/transformer_nuggets) - A place to store reusable transformer components of my own creation or found on the interwebs
 - [giovi321/ios-backup-machine](https://github.com/giovi321/ios-backup-machine) - Offline, portable and automatic iPhone backup system
 - [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) - [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)
