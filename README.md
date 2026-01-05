@@ -4,20 +4,20 @@ Hi,👋!
 
 **Community:** 34 stars • 14 forks • 153 repositories
 
-**Recent Activity:** 77 commits from 2 contributors across 3 repositories
-**Date Range:** December 22, 2025 to December 29, 2025
+**Recent Activity:** 6 commits from 3 contributors across 3 repositories
+**Date Range:** December 29, 2025 to January 05, 2026
 
 **Latest Changes:**
-- [berghain-challenges-listenlabs-ai](https://github.com/bkocis/berghain-challenges-listenlabs-ai)
-Listenlabs.ai game Berghain Challenge  (107de4d9-e818-443e-b678-7841cf5cc37a, 55b161fe-fbfe-4dcc-91f7-45817711f513, c1aca91b-16ff-4200-b567-63d531066a9a)
 
-**Recently Starred:** 7 repositories in the past month
+**Recently Starred:** 9 repositories in the past month
+- [ing-bank/sparse_dot_topn](https://github.com/ing-bank/sparse_dot_topn) - Python package to accelerate the sparse matrix multiplication and top-n similarity selection
+- [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen) - Create committing rules for projects :rocket: auto bump versions :arrow_up: and auto changelog generation :open_file_folder: 
 - [drisspg/transformer_nuggets](https://github.com/drisspg/transformer_nuggets) - A place to store reusable transformer components of my own creation or found on the interwebs
 - [giovi321/ios-backup-machine](https://github.com/giovi321/ios-backup-machine) - Offline, portable and automatic iPhone backup system
 - [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) - [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)
 - [microsoft/data-formulator](https://github.com/microsoft/data-formulator) - 🪄 Create rich visualizations with AI 
 - [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) - "DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"
-- [sst/opencode](https://github.com/sst/opencode) - The open source coding agent.
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) - The open source coding agent.
 - [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
 
 <details>
