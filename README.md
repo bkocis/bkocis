@@ -2,23 +2,33 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 34 stars • 14 forks • 153 repositories
+**Community:** 34 stars • 14 forks • 154 repositories
 
-**Recent Activity:** 6 commits from 3 contributors across 3 repositories
-**Date Range:** December 29, 2025 to January 05, 2026
+**Recent Activity:** 13 commits from 3 contributors across 6 repositories
+**Date Range:** January 05, 2026 to January 12, 2026
 
 **Latest Changes:**
+- [cursor-settings](https://github.com/bkocis/cursor-settings) (remove cursorrules file, added .cursor folder as cursor project format, update for mac)
 
-**Recently Starred:** 9 repositories in the past month
+
+- [fpv-signal-processing](https://github.com/bkocis/fpv-signal-processing)
+FPV- first person view - drone video transmission feed processing (Enhance README with FPV video feed conversion details, Add guide for converting FPV video feed on Linux)
+
+
+- [github-explorer](https://github.com/bkocis/github-explorer)
+Automatized Github explorer (agents)
+
+**Recently Starred:** 16 repositories in the past month
+- [voided-org/deepkit-ml](https://github.com/voided-org/deepkit-ml) - The collaborative real-time open-source machine learning devtool and training suite: Experiment execution, tracking, and debugging. With server and project management tools.
+- [google/adk-python](https://github.com/google/adk-python) - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+- [virattt/dexter](https://github.com/virattt/dexter) - An autonomous agent for deep financial research
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) - "DeepTutor: AI-Powered Personalized Learning Assistant"
+- [google/langextract](https://github.com/google/langextract) - A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
+- [jlfwong/speedscope](https://github.com/jlfwong/speedscope) - 🔬 A fast, interactive web-based viewer for performance profiles.
+- [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)
 - [ing-bank/sparse_dot_topn](https://github.com/ing-bank/sparse_dot_topn) - Python package to accelerate the sparse matrix multiplication and top-n similarity selection
 - [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen) - Create committing rules for projects :rocket: auto bump versions :arrow_up: and auto changelog generation :open_file_folder: 
 - [drisspg/transformer_nuggets](https://github.com/drisspg/transformer_nuggets) - A place to store reusable transformer components of my own creation or found on the interwebs
-- [giovi321/ios-backup-machine](https://github.com/giovi321/ios-backup-machine) - Offline, portable and automatic iPhone backup system
-- [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) - [WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)
-- [microsoft/data-formulator](https://github.com/microsoft/data-formulator) - 🪄 Create rich visualizations with AI 
-- [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode) - "DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)"
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) - The open source coding agent.
-- [metabase/metabase](https://github.com/metabase/metabase) - The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:
 
 <details>
   
