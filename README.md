@@ -2,23 +2,16 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 34 stars • 14 forks • 154 repositories
+**Community:** 35 stars • 14 forks • 154 repositories
 
-**Recent Activity:** 13 commits from 3 contributors across 6 repositories
-**Date Range:** January 05, 2026 to January 12, 2026
+**Recent Activity:** 4 commits from 2 contributors across 3 repositories
+**Date Range:** January 12, 2026 to January 19, 2026
 
 **Latest Changes:**
-- [cursor-settings](https://github.com/bkocis/cursor-settings) (remove cursorrules file, added .cursor folder as cursor project format, update for mac)
 
-
-- [fpv-signal-processing](https://github.com/bkocis/fpv-signal-processing)
-FPV- first person view - drone video transmission feed processing (Enhance README with FPV video feed conversion details, Add guide for converting FPV video feed on Linux)
-
-
-- [github-explorer](https://github.com/bkocis/github-explorer)
-Automatized Github explorer (agents)
-
-**Recently Starred:** 16 repositories in the past month
+**Recently Starred:** 15 repositories in the past month
+- [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
+- [Open-Superintelligence-Lab/blueberry-llm](https://github.com/Open-Superintelligence-Lab/blueberry-llm)
 - [voided-org/deepkit-ml](https://github.com/voided-org/deepkit-ml) - The collaborative real-time open-source machine learning devtool and training suite: Experiment execution, tracking, and debugging. With server and project management tools.
 - [google/adk-python](https://github.com/google/adk-python) - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 - [virattt/dexter](https://github.com/virattt/dexter) - An autonomous agent for deep financial research
@@ -27,8 +20,6 @@ Automatized Github explorer (agents)
 - [jlfwong/speedscope](https://github.com/jlfwong/speedscope) - 🔬 A fast, interactive web-based viewer for performance profiles.
 - [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)
 - [ing-bank/sparse_dot_topn](https://github.com/ing-bank/sparse_dot_topn) - Python package to accelerate the sparse matrix multiplication and top-n similarity selection
-- [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen) - Create committing rules for projects :rocket: auto bump versions :arrow_up: and auto changelog generation :open_file_folder: 
-- [drisspg/transformer_nuggets](https://github.com/drisspg/transformer_nuggets) - A place to store reusable transformer components of my own creation or found on the interwebs
 
 <details>
   
