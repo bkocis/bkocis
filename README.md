@@ -2,14 +2,23 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 35 stars • 14 forks • 154 repositories
+**Community:** 35 stars • 14 forks • 156 repositories
 
-**Recent Activity:** 4 commits from 2 contributors across 3 repositories
-**Date Range:** January 12, 2026 to January 19, 2026
+**Recent Activity:** 8 commits from 2 contributors across 5 repositories
+**Date Range:** January 19, 2026 to January 26, 2026
 
 **Latest Changes:**
+- [opencode-validation](https://github.com/bkocis/opencode-validation)
+Testing Opencode.ai's codeing agent (Update README.md, Initial commit)
+
+
+- [promotion-agents](https://github.com/bkocis/promotion-agents)
+Agents for sharing and promoting code and writing (Create how-where-to-promote.md, Initial commit)
 
 **Recently Starred:** 15 repositories in the past month
+- [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+- [ZeframLou/call-me](https://github.com/ZeframLou/call-me) - Minimal plugin that lets Claude Code call you on the phone.
+- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
 - [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 - [Open-Superintelligence-Lab/blueberry-llm](https://github.com/Open-Superintelligence-Lab/blueberry-llm)
 - [voided-org/deepkit-ml](https://github.com/voided-org/deepkit-ml) - The collaborative real-time open-source machine learning devtool and training suite: Experiment execution, tracking, and debugging. With server and project management tools.
@@ -17,9 +26,6 @@ Hi,👋!
 - [virattt/dexter](https://github.com/virattt/dexter) - An autonomous agent for deep financial research
 - [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) - "DeepTutor: AI-Powered Personalized Learning Assistant"
 - [google/langextract](https://github.com/google/langextract) - A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
-- [jlfwong/speedscope](https://github.com/jlfwong/speedscope) - 🔬 A fast, interactive web-based viewer for performance profiles.
-- [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)
-- [ing-bank/sparse_dot_topn](https://github.com/ing-bank/sparse_dot_topn) - Python package to accelerate the sparse matrix multiplication and top-n similarity selection
 
 <details>
   
