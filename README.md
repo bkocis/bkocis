@@ -2,23 +2,24 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 35 stars • 14 forks • 157 repositories
+**Community:** 35 stars • 14 forks • 158 repositories
 
-**Recent Activity:** 14 commits from 3 contributors across 6 repositories
-**Date Range:** January 26, 2026 to February 02, 2026
+**Recent Activity:** 24 commits from 4 contributors across 5 repositories
+**Date Range:** February 02, 2026 to February 09, 2026
 
 **Latest Changes:**
+- [aissistent-infra](https://github.com/bkocis/aissistent-infra) (Remove bastion utility commands from Makefile help section, Update docs, Switch to the make-file for terraform)
+
+
+- [opencode-validation](https://github.com/bkocis/opencode-validation)
+Testing Opencode.ai's codeing agent (writeup, added prompt and response tracking, adding Makefile)
+
+
 - [code-on-the-fly](https://github.com/bkocis/code-on-the-fly)
-interface for cli coding agents for access over browser from anywhere  (init, gitiignore, Add comprehensive .gitignore for Python projects)
+interface for cli coding agents for access over browser from anywhere  (update)
 
-
-- [cursor-settings](https://github.com/bkocis/cursor-settings) (initial commit)
-
-
-- [serve-yourself-your-music-you-private](https://github.com/bkocis/serve-yourself-your-music-you-private)
-Serve you own music - a simple media player with music dicovery features  (Merge pull request #18 from bkocis/feature/video-download-fail-error, fix Error: JSON.parse: unexpected character at line 1 column 1 of the JSON data, fix)
-
-**Recently Starred:** 15 repositories in the past month
+**Recently Starred:** 8 repositories in the past month
+- [nozomio-labs/nia-epstein-ai](https://github.com/nozomio-labs/nia-epstein-ai) - I used Nia API to index 100 million words worth of Epstein files lol. 
 - [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - SoTA open-source TTS
 - [lyogavin/airllm](https://github.com/lyogavin/airllm) - AirLLM 70B inference with single 4GB GPU
 - [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
@@ -26,9 +27,6 @@ Serve you own music - a simple media player with music dicovery features  (Merge
 - [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
 - [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 - [Open-Superintelligence-Lab/blueberry-llm](https://github.com/Open-Superintelligence-Lab/blueberry-llm)
-- [voided-org/deepkit-ml](https://github.com/voided-org/deepkit-ml) - The collaborative real-time open-source machine learning devtool and training suite: Experiment execution, tracking, and debugging. With server and project management tools.
-- [google/adk-python](https://github.com/google/adk-python) - An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
-- [virattt/dexter](https://github.com/virattt/dexter) - An autonomous agent for deep financial research
 
 <details>
   
