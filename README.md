@@ -4,21 +4,19 @@ Hi,👋!
 
 **Community:** 35 stars • 14 forks • 158 repositories
 
-**Recent Activity:** 24 commits from 4 contributors across 5 repositories
-**Date Range:** February 02, 2026 to February 09, 2026
+**Recent Activity:** 12 commits from 3 contributors across 5 repositories
+**Date Range:** February 09, 2026 to February 16, 2026
 
 **Latest Changes:**
-- [aissistent-infra](https://github.com/bkocis/aissistent-infra) (Remove bastion utility commands from Makefile help section, Update docs, Switch to the make-file for terraform)
-
-
 - [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (writeup, added prompt and response tracking, adding Makefile)
+Testing Opencode.ai's codeing agent (cursor cli integration, agent reasoning, update sqlite schema opencode jsona format interpreter fro tool use)
 
 
-- [code-on-the-fly](https://github.com/bkocis/code-on-the-fly)
-interface for cli coding agents for access over browser from anywhere  (update)
+- [cursor-settings](https://github.com/bkocis/cursor-settings) (update the vscode setting for mac)
 
-**Recently Starred:** 8 repositories in the past month
+**Recently Starred:** 10 repositories in the past month
+- [sipeed/picoclaw](https://github.com/sipeed/picoclaw) - picoclaw
+- [dominik-reiner/wolfgang-lm](https://github.com/dominik-reiner/wolfgang-lm) - Development of a specialised Tiny Language Model (LLM) from scratch that imitates the language and personality of Johann Wolfgang von Goethe.
 - [nozomio-labs/nia-epstein-ai](https://github.com/nozomio-labs/nia-epstein-ai) - I used Nia API to index 100 million words worth of Epstein files lol. 
 - [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - SoTA open-source TTS
 - [lyogavin/airllm](https://github.com/lyogavin/airllm) - AirLLM 70B inference with single 4GB GPU
