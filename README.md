@@ -4,27 +4,19 @@ Hi,👋!
 
 **Community:** 35 stars • 14 forks • 158 repositories
 
-**Recent Activity:** 12 commits from 3 contributors across 5 repositories
-**Date Range:** February 09, 2026 to February 16, 2026
+**Recent Activity:** 11 commits from 3 contributors across 4 repositories
+**Date Range:** February 16, 2026 to February 23, 2026
 
 **Latest Changes:**
 - [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (cursor cli integration, agent reasoning, update sqlite schema opencode jsona format interpreter fro tool use)
+Testing Opencode.ai's codeing agent (added context saving and previous context loading, Merge branch 'main' of https://github.com/bkocis/opencode-validation, cleanup)
 
-
-- [cursor-settings](https://github.com/bkocis/cursor-settings) (update the vscode setting for mac)
-
-**Recently Starred:** 10 repositories in the past month
-- [sipeed/picoclaw](https://github.com/sipeed/picoclaw) - picoclaw
+**Recently Starred:** 5 repositories in the past month
+- [sipeed/picoclaw](https://github.com/sipeed/picoclaw) - Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
 - [dominik-reiner/wolfgang-lm](https://github.com/dominik-reiner/wolfgang-lm) - Development of a specialised Tiny Language Model (LLM) from scratch that imitates the language and personality of Johann Wolfgang von Goethe.
 - [nozomio-labs/nia-epstein-ai](https://github.com/nozomio-labs/nia-epstein-ai) - I used Nia API to index 100 million words worth of Epstein files lol. 
 - [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - SoTA open-source TTS
 - [lyogavin/airllm](https://github.com/lyogavin/airllm) - AirLLM 70B inference with single 4GB GPU
-- [block/goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-- [ZeframLou/call-me](https://github.com/ZeframLou/call-me) - Minimal plugin that lets Claude Code call you on the phone.
-- [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
-- [charmbracelet/glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
-- [Open-Superintelligence-Lab/blueberry-llm](https://github.com/Open-Superintelligence-Lab/blueberry-llm)
 
 <details>
   
