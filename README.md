@@ -4,19 +4,22 @@ Hi,👋!
 
 **Community:** 35 stars • 14 forks • 158 repositories
 
-**Recent Activity:** 11 commits from 3 contributors across 4 repositories
-**Date Range:** February 16, 2026 to February 23, 2026
+**Recent Activity:** 12 commits from 3 contributors across 5 repositories
+**Date Range:** February 23, 2026 to March 02, 2026
 
 **Latest Changes:**
 - [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (added context saving and previous context loading, Merge branch 'main' of https://github.com/bkocis/opencode-validation, cleanup)
+Testing Opencode.ai's codeing agent (test with gpt-oss-20-120k, testing opencode config, extending models and updates, general tool solution | TODO what's missing)
 
-**Recently Starred:** 5 repositories in the past month
+**Recently Starred:** 8 repositories in the past month
+- [rasbt/reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) - Implement a reasoning LLM in PyTorch from scratch, step by step
+- [petergpt/bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) - BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev.
+- [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python)
+- [clarsbyte/onshape-mcp](https://github.com/clarsbyte/onshape-mcp) - Added more functionalities to hedless' OnShape MCP server.
+- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - practice made claude perfect
 - [sipeed/picoclaw](https://github.com/sipeed/picoclaw) - Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
 - [dominik-reiner/wolfgang-lm](https://github.com/dominik-reiner/wolfgang-lm) - Development of a specialised Tiny Language Model (LLM) from scratch that imitates the language and personality of Johann Wolfgang von Goethe.
-- [nozomio-labs/nia-epstein-ai](https://github.com/nozomio-labs/nia-epstein-ai) - I used Nia API to index 100 million words worth of Epstein files lol. 
-- [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) - SoTA open-source TTS
-- [lyogavin/airllm](https://github.com/lyogavin/airllm) - AirLLM 70B inference with single 4GB GPU
+- [nozomio-labs/nia-epstein-ai](https://github.com/nozomio-labs/nia-epstein-ai) - I used Nia API to index 100 million words worth of Epstein files lol.
 
 <details>
   
