@@ -2,16 +2,25 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 35 stars • 14 forks • 158 repositories
+**Community:** 36 stars • 14 forks • 158 repositories
 
-**Recent Activity:** 12 commits from 3 contributors across 5 repositories
-**Date Range:** February 23, 2026 to March 02, 2026
+**Recent Activity:** 8 commits from 3 contributors across 5 repositories
+**Date Range:** March 02, 2026 to March 09, 2026
 
 **Latest Changes:**
 - [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (test with gpt-oss-20-120k, testing opencode config, extending models and updates, general tool solution | TODO what's missing)
+Testing Opencode.ai's codeing agent (Merge pull request #1 from bkocis/feature/workflow-orchestration, merge, Merge branch 'main' of https://github.com/bkocis/opencode-validation into feature/workflow-orchestration)
 
-**Recently Starred:** 8 repositories in the past month
+
+- [cursor-settings](https://github.com/bkocis/cursor-settings) (cursror git commit after agent completion)
+
+
+- [skillset-profiling](https://github.com/bkocis/skillset-profiling)
+This repo contains a skill profiling application  (aws refresh orchestration study program)
+
+**Recently Starred:** 10 repositories in the past month
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running research on single-GPU nanochat training automatically
+- [googleworkspace/cli](https://github.com/googleworkspace/cli) - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
 - [rasbt/reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) - Implement a reasoning LLM in PyTorch from scratch, step by step
 - [petergpt/bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) - BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev.
 - [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python)
