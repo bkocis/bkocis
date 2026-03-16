@@ -2,23 +2,25 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 36 stars • 14 forks • 158 repositories
+**Community:** 36 stars • 14 forks • 159 repositories
 
-**Recent Activity:** 8 commits from 3 contributors across 5 repositories
-**Date Range:** March 02, 2026 to March 09, 2026
+**Recent Activity:** 9 commits from 3 contributors across 5 repositories
+**Date Range:** March 09, 2026 to March 16, 2026
 
 **Latest Changes:**
 - [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (Merge pull request #1 from bkocis/feature/workflow-orchestration, merge, Merge branch 'main' of https://github.com/bkocis/opencode-validation into feature/workflow-orchestration)
+Testing Opencode.ai's codeing agent (write-up of the workflows, write-up of the workflows)
 
 
-- [cursor-settings](https://github.com/bkocis/cursor-settings) (cursror git commit after agent completion)
+- [opencode-subprocess-agent-workflow](https://github.com/bkocis/opencode-subprocess-agent-workflow)
+Run opencode agent as subprocess, integrate workflows for planning, code implementation, and validation (adding evaluation and comparison, adding files, Initial commit)
 
 
-- [skillset-profiling](https://github.com/bkocis/skillset-profiling)
-This repo contains a skill profiling application  (aws refresh orchestration study program)
+- [serve-yourself-your-music-you-private](https://github.com/bkocis/serve-yourself-your-music-you-private)
+Serve you own music - a simple media player with music dicovery features  (Merge pull request #20 from bkocis/feature/issue-19-docker-volume-downloads, fix docker image bloat by excluding local downloads data)
 
-**Recently Starred:** 10 repositories in the past month
+**Recently Starred:** 9 repositories in the past month
+- [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running research on single-GPU nanochat training automatically
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
 - [rasbt/reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) - Implement a reasoning LLM in PyTorch from scratch, step by step
@@ -27,8 +29,6 @@ This repo contains a skill profiling application  (aws refresh orchestration stu
 - [clarsbyte/onshape-mcp](https://github.com/clarsbyte/onshape-mcp) - Added more functionalities to hedless' OnShape MCP server.
 - [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - practice made claude perfect
 - [sipeed/picoclaw](https://github.com/sipeed/picoclaw) - Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
-- [dominik-reiner/wolfgang-lm](https://github.com/dominik-reiner/wolfgang-lm) - Development of a specialised Tiny Language Model (LLM) from scratch that imitates the language and personality of Johann Wolfgang von Goethe.
-- [nozomio-labs/nia-epstein-ai](https://github.com/nozomio-labs/nia-epstein-ai) - I used Nia API to index 100 million words worth of Epstein files lol.
 
 <details>
   
