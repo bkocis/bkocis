@@ -4,22 +4,19 @@ Hi,👋!
 
 **Community:** 36 stars • 14 forks • 159 repositories
 
-**Recent Activity:** 9 commits from 3 contributors across 5 repositories
-**Date Range:** March 09, 2026 to March 16, 2026
+**Recent Activity:** 7 commits from 2 contributors across 5 repositories
+**Date Range:** March 16, 2026 to March 23, 2026
 
 **Latest Changes:**
-- [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (write-up of the workflows, write-up of the workflows)
-
-
 - [opencode-subprocess-agent-workflow](https://github.com/bkocis/opencode-subprocess-agent-workflow)
-Run opencode agent as subprocess, integrate workflows for planning, code implementation, and validation (adding evaluation and comparison, adding files, Initial commit)
+Run opencode agent as subprocess, integrate workflows for planning, code implementation, and validation (modifying tracking and some code rewriting)
 
 
-- [serve-yourself-your-music-you-private](https://github.com/bkocis/serve-yourself-your-music-you-private)
-Serve you own music - a simple media player with music dicovery features  (Merge pull request #20 from bkocis/feature/issue-19-docker-volume-downloads, fix docker image bloat by excluding local downloads data)
+- [opencode-validation](https://github.com/bkocis/opencode-validation)
+Testing Opencode.ai's codeing agent (edited the workflow smaller article, edited the workflow smaller article)
 
 **Recently Starred:** 9 repositories in the past month
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running research on single-GPU nanochat training automatically
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
@@ -28,7 +25,6 @@ Serve you own music - a simple media player with music dicovery features  (Merge
 - [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python)
 - [clarsbyte/onshape-mcp](https://github.com/clarsbyte/onshape-mcp) - Added more functionalities to hedless' OnShape MCP server.
 - [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - practice made claude perfect
-- [sipeed/picoclaw](https://github.com/sipeed/picoclaw) - Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity
 
 <details>
   
