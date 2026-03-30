@@ -4,27 +4,22 @@ Hi,👋!
 
 **Community:** 36 stars • 14 forks • 159 repositories
 
-**Recent Activity:** 7 commits from 2 contributors across 5 repositories
-**Date Range:** March 16, 2026 to March 23, 2026
+**Recent Activity:** 12 commits from 2 contributors across 4 repositories
+**Date Range:** March 23, 2026 to March 30, 2026
 
 **Latest Changes:**
-- [opencode-subprocess-agent-workflow](https://github.com/bkocis/opencode-subprocess-agent-workflow)
-Run opencode agent as subprocess, integrate workflows for planning, code implementation, and validation (modifying tracking and some code rewriting)
+- [skillset-profiling](https://github.com/bkocis/skillset-profiling)
+This repo contains a skill profiling application  (day_03 end, day_03 again, day_3 partially done Glue and Athena S3 crawler test)
 
 
 - [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (edited the workflow smaller article, edited the workflow smaller article)
+Testing Opencode.ai's codeing agent (adding workflow running command to Todo-s and article draft)
 
-**Recently Starred:** 9 repositories in the past month
+**Recently Starred:** 4 repositories in the past month
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running research on single-GPU nanochat training automatically
 - [googleworkspace/cli](https://github.com/googleworkspace/cli) - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
-- [rasbt/reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) - Implement a reasoning LLM in PyTorch from scratch, step by step
-- [petergpt/bullshit-benchmark](https://github.com/petergpt/bullshit-benchmark) - BullshitBench measures whether AI models challenge nonsensical prompts instead of confidently answering them, created by Peter Gostev.
-- [anomalyco/opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python)
-- [clarsbyte/onshape-mcp](https://github.com/clarsbyte/onshape-mcp) - Added more functionalities to hedless' OnShape MCP server.
-- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - practice made claude perfect
 
 <details>
   
