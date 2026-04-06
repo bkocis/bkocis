@@ -2,24 +2,26 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 36 stars • 14 forks • 159 repositories
+**Community:** 37 stars • 14 forks • 159 repositories
 
-**Recent Activity:** 12 commits from 2 contributors across 4 repositories
-**Date Range:** March 23, 2026 to March 30, 2026
+**Recent Activity:** 16 commits from 2 contributors across 6 repositories
+**Date Range:** March 30, 2026 to April 06, 2026
 
 **Latest Changes:**
+- [opencode-subprocess-agent-workflow](https://github.com/bkocis/opencode-subprocess-agent-workflow)
+Run opencode agent as subprocess, integrate workflows for planning, code implementation, and validation (due update)
+
+
 - [skillset-profiling](https://github.com/bkocis/skillset-profiling)
-This repo contains a skill profiling application  (day_03 end, day_03 again, day_3 partially done Glue and Athena S3 crawler test)
+This repo contains a skill profiling application  (day_04 task 5 done)
 
-
-- [opencode-validation](https://github.com/bkocis/opencode-validation)
-Testing Opencode.ai's codeing agent (adding workflow running command to Todo-s and article draft)
-
-**Recently Starred:** 4 repositories in the past month
+**Recently Starred:** 6 repositories in the past month
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents.
+- [nathanshankar/terminal_rviz](https://github.com/nathanshankar/terminal_rviz)
+- [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) - Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 - [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running research on single-GPU nanochat training automatically
-- [googleworkspace/cli](https://github.com/googleworkspace/cli) - Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.
 
 <details>
   
