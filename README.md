@@ -4,27 +4,26 @@ Hi,👋!
 
 **Community:** 37 stars • 14 forks • 159 repositories
 
-**Recent Activity:** 32 commits from 3 contributors across 6 repositories
-**Date Range:** April 06, 2026 to April 13, 2026
+**Recent Activity:** 15 commits from 2 contributors across 5 repositories
+**Date Range:** April 13, 2026 to April 20, 2026
 
 **Latest Changes:**
 - [strato-vm-configuration](https://github.com/bkocis/strato-vm-configuration)
-Reprository for setting up infrastructure on Strato cloud provider (redeploy docker container stop, remove the "/", "/" fix)
+Reprository for setting up infrastructure on Strato cloud provider (cleaning up after redeployment docker prune last step, adding the daily cron make redeploy_headless to the system., nginx htpasswd fix)
 
 
-- [opencode-subprocess-agent-workflow](https://github.com/bkocis/opencode-subprocess-agent-workflow)
-Run opencode agent as subprocess, integrate workflows for planning, code implementation, and validation (simplify run command configuration)
+- [github-mcp-server-agent](https://github.com/bkocis/github-mcp-server-agent) (knowledge base github repo fix and refresh script, gitignore update)
 
 
-- [skillset-profiling](https://github.com/bkocis/skillset-profiling)
-This repo contains a skill profiling application  (day_04 done)
+- [track-family-memories](https://github.com/bkocis/track-family-memories)
+Keep track of your family photos. Upload, share, and search. (.gitignore, authentication / security hardening, path mismatch correction for deployment)
 
 **Recently Starred:** 5 repositories in the past month
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 - [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) - PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents.
 - [nathanshankar/terminal_rviz](https://github.com/nathanshankar/terminal_rviz)
 - [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) - Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
 <details>
   
