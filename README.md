@@ -2,23 +2,17 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 37 stars • 14 forks • 159 repositories
+**Community:** 37 stars • 14 forks • 160 repositories
 
-**Recent Activity:** 15 commits from 2 contributors across 5 repositories
-**Date Range:** April 13, 2026 to April 20, 2026
+**Recent Activity:** 12 commits from 3 contributors across 3 repositories
+**Date Range:** April 20, 2026 to April 27, 2026
 
 **Latest Changes:**
-- [strato-vm-configuration](https://github.com/bkocis/strato-vm-configuration)
-Reprository for setting up infrastructure on Strato cloud provider (cleaning up after redeployment docker prune last step, adding the daily cron make redeploy_headless to the system., nginx htpasswd fix)
+- [liquidai-langgraph-agetns](https://github.com/bkocis/liquidai-langgraph-agetns)
+Use LMF models from LiquidAI with Langgraph framework to develop agetns  (docs, adding cursor plan markdowns,  improve waving scenario detection and scenario matching robustness)
 
-
-- [github-mcp-server-agent](https://github.com/bkocis/github-mcp-server-agent) (knowledge base github repo fix and refresh script, gitignore update)
-
-
-- [track-family-memories](https://github.com/bkocis/track-family-memories)
-Keep track of your family photos. Upload, share, and search. (.gitignore, authentication / security hardening, path mismatch correction for deployment)
-
-**Recently Starred:** 5 repositories in the past month
+**Recently Starred:** 6 repositories in the past month
+- [Liquid4All/cookbook](https://github.com/Liquid4All/cookbook) - Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 - [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) - PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents.
