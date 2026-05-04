@@ -2,22 +2,19 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 37 stars • 14 forks • 160 repositories
+**Community:** 36 stars • 14 forks • 160 repositories
 
-**Recent Activity:** 12 commits from 3 contributors across 3 repositories
-**Date Range:** April 20, 2026 to April 27, 2026
+**Recent Activity:** 2 commits from 1 contributor across 2 repositories
+**Date Range:** April 27, 2026 to May 04, 2026
 
 **Latest Changes:**
-- [liquidai-langgraph-agetns](https://github.com/bkocis/liquidai-langgraph-agetns)
-Use LMF models from LiquidAI with Langgraph framework to develop agetns  (docs, adding cursor plan markdowns,  improve waving scenario detection and scenario matching robustness)
 
-**Recently Starred:** 6 repositories in the past month
+**Recently Starred:** 5 repositories in the past month
 - [Liquid4All/cookbook](https://github.com/Liquid4All/cookbook) - Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 - [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) - PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - Production-grade engineering skills for AI coding agents.
 - [nathanshankar/terminal_rviz](https://github.com/nathanshankar/terminal_rviz)
-- [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) - Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
 
 <details>
   
