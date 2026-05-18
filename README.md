@@ -4,19 +4,14 @@ Hi,👋!
 
 **Community:** 36 stars • 14 forks • 161 repositories
 
-**Recent Activity:** 5 commits from 3 contributors across 4 repositories
-**Date Range:** May 04, 2026 to May 11, 2026
+**Recent Activity:** 4 commits from 2 contributors across 3 repositories
+**Date Range:** May 11, 2026 to May 18, 2026
 
 **Latest Changes:**
-- [agentic-search-and-write](https://github.com/bkocis/agentic-search-and-write) (init commit)
+- [agentic-search-and-write](https://github.com/bkocis/agentic-search-and-write) (agent: route wave2 agents to vllm provider, agent: reduce hybrid vLLM startup memory defaults)
 
-
-- [strato-vm-configuration](https://github.com/bkocis/strato-vm-configuration)
-Reprository for setting up infrastructure on Strato cloud provider (configure initial setup for new vm)
-
-**Recently Starred:** 2 repositories in the past month
+**Recently Starred:** 1 repository in the past month
 - [Liquid4All/cookbook](https://github.com/Liquid4All/cookbook) - Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 
 <details>
   
