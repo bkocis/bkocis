@@ -4,16 +4,15 @@ Hi,👋!
 
 **Community:** 37 stars • 14 forks • 161 repositories
 
-**Recent Activity:** 8 commits from 2 contributors across 3 repositories
-**Date Range:** July 13, 2026 to July 20, 2026
+**Recent Activity:** 1 commit from 1 contributor across 1 repository
+**Date Range:** July 20, 2026 to July 27, 2026
 
 **Latest Changes:**
-- [agentic-search-and-write](https://github.com/bkocis/agentic-search-and-write) (extending the fils with article_title, personal_view for the ideas endpoint | multi-fact files input, adding fact markdown file access to the ideas endpoint | add as akrdown fact sheets, more instructions to imporve the writing quality)
 
 **Recently Starred:** 3 repositories in the past month
+- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) - SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.
 - [superlinked/sie](https://github.com/superlinked/sie) - Open-source inference server and production cluster for all the models your agent needs.
 - [apple/ml-mmtoolsandbox](https://github.com/apple/ml-mmtoolsandbox) - MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents
-- [earendil-works/pi](https://github.com/earendil-works/pi) - AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 
 <details>
   
