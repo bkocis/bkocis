@@ -2,18 +2,17 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 38 stars • 14 forks • 161 repositories
+**Community:** 37 stars • 14 forks • 161 repositories
 
-**Recent Activity:** 2 commits from 1 contributor across 2 repositories
-**Date Range:** August 10, 2026 to August 17, 2026
+**Recent Activity:** 2 commits from 2 contributors across 2 repositories
+**Date Range:** August 17, 2026 to August 24, 2026
 
 **Latest Changes:**
 
-**Recently Starred:** 4 repositories in the past month
+**Recently Starred:** 3 repositories in the past month
 - [timtoole02/Camelid](https://github.com/timtoole02/Camelid) - Camelid: a Rust-native local inference backend with evidence-gated model compatibility.
 - [andrewyng/openworker](https://github.com/andrewyng/openworker)
-- [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) - Build local voice agents with open-source models
-- [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) - SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.
+- [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) - Build voice agents with open-source models
 
 <details>
   
