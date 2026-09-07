@@ -4,15 +4,18 @@ Hi,👋!
 
 **Community:** 39 stars • 14 forks • 161 repositories
 
-**Recent Activity:** 1 commit from 1 contributor across 1 repository
-**Date Range:** August 24, 2026 to August 31, 2026
+**Recent Activity:** 2 commits from 1 contributor across 2 repositories
+**Date Range:** August 31, 2026 to September 07, 2026
 
 **Latest Changes:**
 
-**Recently Starred:** 3 repositories in the past month
+**Recently Starred:** 6 repositories in the past month
+- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - TradingAgents: Multi-Agents LLM Financial Trading Framework
+- [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents
+- [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) - Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
+- [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) - Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) - 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
 - [timtoole02/Camelid](https://github.com/timtoole02/Camelid) - Camelid: a Rust-native local inference backend with evidence-gated model compatibility.
-- [andrewyng/openworker](https://github.com/andrewyng/openworker)
-- [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) - Build voice agents with open-source models
 
 <details>
   
