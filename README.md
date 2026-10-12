@@ -4,16 +4,13 @@ Hi,👋!
 
 **Community:** 39 stars • 14 forks • 161 repositories
 
-**Recent Activity:** 3 commits from 2 contributors across 2 repositories
-**Date Range:** September 28, 2026 to October 05, 2026
+**Recent Activity:** 2 commits from 2 contributors across 2 repositories
+**Date Range:** October 05, 2026 to October 12, 2026
 
 **Latest Changes:**
 
-**Recently Starred:** 4 repositories in the past month
+**Recently Starred:** 1 repository in the past month
 - [sakharniy/bmw-mac-diag](https://github.com/sakharniy/bmw-mac-diag) - BMW diagnostics on macOS with a cheap K+DCAN cable (EdiabasLib)
-- [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
-- [ulab-uiuc/LLMRouter](https://github.com/ulab-uiuc/LLMRouter) - LLMRouter: An Open-Source Library for LLM Routing
-- [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) - TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 <details>
   
