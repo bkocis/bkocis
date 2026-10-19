@@ -4,12 +4,17 @@ Hi,👋!
 
 **Community:** 39 stars • 14 forks • 161 repositories
 
-**Recent Activity:** 2 commits from 2 contributors across 2 repositories
-**Date Range:** October 05, 2026 to October 12, 2026
+**Recent Activity:** 2 commits from 1 contributor across 2 repositories
+**Date Range:** October 12, 2026 to October 19, 2026
 
 **Latest Changes:**
 
-**Recently Starred:** 1 repository in the past month
+**Recently Starred:** 6 repositories in the past month
+- [google-research/harness2](https://github.com/google-research/harness2)
+- [lcoutodemos/clui-cc](https://github.com/lcoutodemos/clui-cc) - Clui CC — Command Line User Interface for Claude Code
+- [lcoutodemos/chums](https://github.com/lcoutodemos/chums) - Talk to Claude Code and Codex agents from an Apple Watch and an iPhone. Each agent is a character on the watch.
+- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) - A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
+- [masoudhassani/river_raid](https://github.com/masoudhassani/river_raid) - recreation of river raid, the famous atari 2600 game in python
 - [sakharniy/bmw-mac-diag](https://github.com/sakharniy/bmw-mac-diag) - BMW diagnostics on macOS with a cheap K+DCAN cable (EdiabasLib)
 
 <details>
