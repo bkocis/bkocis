@@ -2,14 +2,15 @@ Hi,👋!
 
 ## Weekly Summary
 
-**Community:** 41 stars • 14 forks • 161 repositories
+**Community:** 41 stars • 15 forks • 161 repositories
 
 **Recent Activity:** 1 commit from 1 contributor across 1 repository
-**Date Range:** October 26, 2026 to November 02, 2026
+**Date Range:** November 02, 2026 to November 09, 2026
 
 **Latest Changes:**
 
-**Recently Starred:** 5 repositories in the past month
+**Recently Starred:** 6 repositories in the past month
+- [riazosama/headunit-carplay](https://github.com/riazosama/headunit-carplay) - Turn on the Apple CarPlay your Android head unit already shipped with (Autochips AC8257). Wired over USB, experimental wireless. Uses the unit's genuine MFi chip; nothing forged.
 - [google-research/harness2](https://github.com/google-research/harness2)
 - [lcoutodemos/clui-cc](https://github.com/lcoutodemos/clui-cc) - Clui CC — Command Line User Interface for Claude Code
 - [lcoutodemos/chums](https://github.com/lcoutodemos/chums) - Talk to Claude Code and Codex agents from an Apple Watch and an iPhone. Each agent is a character on the watch.
